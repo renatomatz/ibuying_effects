@@ -1,0 +1,265 @@
+City,State,avg_monthly_rent,pct_chg_val,med_home_val,best_time_sell,affordability,days_to_sell,job_market,public_school_ranking,top_ibs,ntop_ibs,nlocal_ibs
+Miami,FL,1738,1.50,335000,June,95.6,150.458,Fair,26,Zillow Offers,1,2
+Chicago,IL,1906,-0.60,226400,June,168.1,96.875,Weak,16,,0,2
+Aspen,CO,1788,2.70,1786530,July,146,72.667,Fair,17,,0,3
+Anderson,SC,825,4.1,156992,June,High,83,Weak,41,,0,3
+Tampa,FL,1315,3.20,218900,July,144.3,78.8333,Fair,26,"Zillow Offers, Opendoor, Offerpad",3,3
+Phoenix,AZ,1041,4.50,242100,November,141.2,60.5,Strong,49,"Zillow Offers, Opendoor, Offerpad",3,3
+Atlanta,GA,1382,6.6,257700,June,182.9,63.75,Fair,35,"Zillow Offers, Opendoor, Offerpad",3,3
+Amarillo,TX,754,2.30,135166,June,High,63.96,Weak,33,,0,3
+Akron,OH,835,6.70,73012,June,High,79.25,Weak,28,,0,3
+Dallas,TX,1208,9.9,212200,June,157.9,68,Strong,33,"Zillow Offers, Opendoor, Offerpad",3,3
+Boise,ID,1186,12.4,307500,August,138.2,47.54,Strong,32,,0,2
+Altamonte Springs,FL,1250,5.40,211445,December,145,71.96,Strong,26,,0,3
+Burlington,NC,902,4.3,128293,July,High,73,Fair,51,Offerpad,1,3
+Anaheim,CA,1795,1.00,596100,May,60.7,58.417,Weak,38,Offerpad,1,2
+Arlington,TX,1038,4.40,218707,December,High,47.08,Strong,33,,0,3
+Augusta,GA,879,4.3,110364,August,Low,63,Fair,47,,0,3
+Boston,MA,3111,2.50,594600,June,116.6,66.125,Strong,1,,0,2
+Castle Rock,CO,1599,1.10,478549,July,61,60.79,Fair,38,,0,1
+Aurora,CO,1359,3.50,329900,June,109.2,48.833,Fair,17,,0,2
+Baton Rouge,LA,1026,0.5,183015,July,Fair,48,Weak,35,,0,3
+Baltimore,MD,1268,1.10,151928,May,High,98.5,Weak,19,,0,3
+Bakersfield,CA,1060,4.00,252161,August,Moderate,68,Weak,38,,0,3
+Arvada,CO,1431,2.20,190179,June,94,50.208,Fair,17,,0,3
+Buffalo,NY,1064,9.90,104871,March,High,88.17,Weak,24,,0,3
+Houston,TX,1294,4.50,186700,June,164.1,79.25,Fair,33,"Zillow Offers, Opendoor, Offerpad",3,3
+Casselberry,FL,1219,5.30,235926,August,143,67.21,Strong,26,,0,3
+Cambridge,MA,3191,2.10,853197,April,116.6,54.042,Strong,1,,0,3
+Brownsville,TX,725,3.5,102365,June,High,59,Weak,33,,0,3
+Alexandria,VA,1771,6.3,551395,April,High,22,Fair,64,,0,3
+Cary,NC,1220,1.4,385638,July,Fair/p>,48,Strong,51,Offerpad,1,3
+Anchorage,AK,1043,8.90,332201,October,Moderate,94.75,Weak,42,,0,3
+Cincinnati,OH,978,7.80,144200,September,236.6,74.417,Weak,28,"Zillow Offers, Opendoor",2,2
+Austin,TX,1369,6.20,370700,November,152.6,60.25,Strong,33,"Zillow Offers, Opendoor, Offerpad",3,3
+Baytown,TX,940,3.6,163785,June,Fair,52,Fair,52,Offerpad,1,3
+Boulder,CO,1977,2.60,788925,April,93.2,49.208,Fair,17,,0,2
+Albuquerque,NM,919,6.30,211574,June,High,73.5,Strong,51,,0,3
+Birmingham,AL,968,10.6,64840,June,Fair,42,Weak,44,Offerpad,1,3
+Bonita Springs,FL,1402,0.90,335700,February,90.5,122.5,Fair,26,,0,2
+Bradenton,FL,1281,1.7,237115,December,Fair,87,Fair,54,Offerpad,1,3
+Chandler,AZ,1390,7.6,347832,June,Fair,47,Fair,37,Offerpad,1,3
+Charleston,SC,1378,0,319000,July,141.1,84.25,Fair,39,,0,2
+Charlotte,NC,1187,6.70,226100,June,160.5,56.833,Strong,31,"Zillow Offers, Opendoor, Offerpad",3,3
+Los Angeles,CA,2384,2,688700,July,63.4,65.583,Weak,38,"Zillow Offers, Opendoor, Offerpad",3,2
+Brighton,CO,1433,0.50,364887,December,93,71.58,Fair,17,,0,1
+Broomfield,CO,1644,1.10,475349,March,74,53.38,Fair,38,,0,2
+Chattanooga,TN,1009,6.90,154200,July,191.3,65.292,Fair,34,,0,2
+Bridgeport,CT,1121,7.4,206963,June,Fair/p>,64,Weak,66,,0,3
+Canton,OH,529,7.20,108415,June,High,69.96,Weak,28,,0,2
+Chula Vista,CA,1814,5.60,561532,November,Low,57.42,Fair,38,,0,3
+Cape Canaveral,FL,795,3.60,226200,November,146.7,92.5,Strong,26,Offerpad,1,2
+Chesapeake,VA,1252,2.9,283520,July,Fair,73,Fair,64,,0,3
+Campbell,CA,2586,-7.20,1270963,March,146,49.83,Fair,38,,0,2
+Cape Coral,FL,1317,1.9,237432,December,Fair,93,Fair,53,,0,3
+Centennial,CO,1653,2.80,485980,June,124,48.79,Fair,17,,0,3
+Cleveland,OH,1091,7.70,66851,June,High,72.71,Weak,28,,0,3
+Clarksville,TN,894,6.0,183230,September,High,55,Fair,36,,0,3
+Clearwater,FL,1218,5.30,217700,August,144.3,75.67,Fair,26,Offerpad,1,2
+Columbus,GA,896,4.6,105558,May,High,95,Weak,34,,0,3
+Commerce City,CO,1581,1.00,369279,June,94,51.38,Fair,17,,0,3
+Columbia,SC,1090,4.5,147135,December,Fair,53,Weak,41,,0,3
+Colorado Springs,CO,1125,7.00,293500,August,128.1,48.25,Strong,17,Zillow Offers,1,2
+Columbus,OH,1000,8.50,157700,June,206,56,Fair,28,"Zillow Offers, Opendoor",2,3
+Cocoa,FL,855,4.70,190661,December,119,67.38,Fair,26,,0,2
+Cupertino,CA,3471,-6.50,2077366,April,140,50.13,Fair,38,,0,2
+Corpus Christi,TX,981,5.30,160131,December,High,96.34,Weak,33,,0,3
+Dayton,OH,808,13.9,62471,June,High,79,Weak,30,,0,3
+Englewood,CO,1632,4.50,412068,August,85,47.04,Fair,17,,0,3
+Ft. Myers,FL,1271,1.10,211400,June,134,110.83,Fair,26,Offerpad,1,2
+Daytona Beach,FL,1430,6.90,177200,December,193,84.5,Strong,26,Offerpad,1,2
+Des Moines,IA,910,5.50,145300,March,213.1,66.791,Fair,14,,0,1
+Detroit,MI,1061,3.50,163600,July,182.2,108.46,Weak,37,,0,2
+Durham,NC,1144,8.90,230000,July,157.4,52.041,Strong,31,"Opendoor, Offerpad",2,2
+Fayetteville,NC,848,4.0,122922,May,High,62,Weak,29,Offerpad,1,3
+Deland,FL,887,6.90,213026,July,116,78.53,Fair,26,,0,3
+Edgewater,FL,1005,8.30,192341,December,154,83.75,Fair,26,,0,3
+Dakota Ridge,CO,1611,0.30,879483,December,103,56.92,Fair,17,,0,2
+Fountain,CO,1277,7.60,278991,July,67,47.58,High,17,,0,1
+Deltona,FL,1208,6.60,190024,November,158,67.58,Fair,26,,0,3
+Denver,CO,1607,2.00,422700,June,109.2,49.75,Strong,17,"Opendoor, Zillow Offers",2,3
+Ft. Walton Beach,FL,1119,5.00,192800,November,138,75.33,Strong,26,,0,2
+Denton,TX,1209,2.1,248799,June,Fair,51,Strong,51,,0,3
+Foothill Farms,CA,1442,7.40,310911,July,107,53.34,Fair,38,,0,2
+Ferndale,FL,1786,7.80,255278,December,127,59.42,Strong,26,,0,3
+Eugene,OR,1324,8.5,349466,August,High,57,Fair,43,,0,3
+Fort Worth,TX,1082,7.00,197500,July,157.9,54.75,Strong,33,"Zillow Offers, Opendoor, Offerpad",3,2
+Fountain Valley,CA,1918,2.90,837491,August,70,50.38,Weak,38,,0,2
+Ft Myers,FL,1271,1.10,211400,June,134,110.83,Fair,26,Offerpad,1,2
+Ft. Worth,TX,1082,7.00,197500,July,157.9,54.75,Strong,33,"Zillow Offers, Opendoor, Offerpad",3,2
+Fort Walton Beach,FL,1119,5.00,192800,November,138,75.33,Strong,26,,0,2
+Fort Myers,FL,1271,1.10,211400,June,134,110.83,Fair,26,Offerpad,1,2
+El Paso,TX,770,4.30,129000,July,164.6,91.583,Fair,33,,0,2
+Ft Walton Beach,FL,1119,5.00,192800,November,138,75.33,Strong,26,,0,2
+Frisco,TX,1396,-0.4,416158,June,High,58,Strong,33,"Opendoor, Offerpad",2,3
+Fresno,CA,1114,3.70,251405,December,Moderate,57.63,Fair,38,,0,3
+Eustis,FL,694,5.90,215954,December,133,82.27,Strong,26,,0,3
+Ft. Collins,CO,1542,3.7,392900,December,93.2,57.63,Strong,17,Zillow Offers,1,2
+Fort Collins,CO,1542,3.7,392900,December,93.2,57.63,Strong,17,Zillow Offers,1,2
+Ft Lauderdale,FL,1971,1.10,319300,April,95.6,115.75,Fair,26,,0,3
+Ft Worth,TX,1082,7.00,197500,July,157.9,54.75,Strong,33,"Zillow Offers, Opendoor, Offerpad",3,2
+Gainesville,FL,1297,5.30,185400,January,148.6,73.167,Fair,26,,0,2
+Greeley,CO,1198,3.80,308474,April,103,50.583,Strong,17,,0,2
+Grand Rapids,MI,1093,8.70,163000,June,198.8,52.667,Strong,37,"Zillow Offers, Opendoor",2,1
+Glendale,AZ,1018,8.00,253295,November,High,55.96,Strong,49,,0,3
+Grand Prairie,TX,1123,4.50,220950,November,High,49.96,Strong,33,,0,3
+Garland,TX,1080,1.5,209050,June,High,48,Strong,33,"Opendoor, Offerpad",2,3
+Fort Lauderdale,FL,1971,1.10,319300,April,95.6,115.75,Fair,26,,0,3
+Gilroy,CA,2199,-1.70,756147,August,140,50.12,Fair,38,,0,1
+Gilbert,AZ,1328,6.80,364115,September,High,52,Fair,49,,0,3
+Greensboro,NC,916,7.50,149400,June,196.2,67.167,Weak,31,,0,3
+Geneva,FL,155240,7.00,340205,December,122,33,Strong,26,,0,2
+Hayward,CA,2153,-2.70,659372,April,64.1,46,Fair,38,,0,3
+Highlands Ranch,CO,1849,1.90,513786,December,65,49.38,Fair,38,,0,1
+Ft Collins,CO,1542,3.7,392900,December,93.2,57.63,Strong,17,Zillow Offers,1,2
+Henderson,NV,1322,0.40,327400,June,120,58.25,Strong,43,Offerpad,1,2
+Ft. Lauderdale,FL,1971,1.10,319300,April,95.6,115.75,Fair,26,,0,3
+Killeen,TX,767,7.7,137420,August,Fair,58,Fair,51,,0,3
+Greenville,SC,1136,5.0,207299,July,High,11,Fair,39,Offerpad,1,3
+Honolulu,HI,1725,-2.50,707246,September,Low,82.5,Weak,36,,0,3
+Hialeah,FL,1376,2.70,297486,August,Moderate,79.63,Fair,26,,0,3
+High Point,NC,853,6.40,160419,July,High,65.38,Weak,31,,0,3
+Hollywood,FL,1464,2.7,300231,August,Fair,48,Fair,54,,0,3
+Jacksonville,FL,1098,6.4,178300,December,148.3,71.583,Fair,26,Opendoor,1,3
+Kissimmee,FL,1366,8.20,219800,August,124.1,78.17,Strong,26,Offerpad,1,2
+Irvine,CA,2502,-0.90,858900,December,60.7,62.083,Fair,38,,0,2
+Knoxville,TN,1082,7.2,200650,June,High,54,Fair,36,,0,3
+Lakeland,FL,1094,5.70,164600,September,146.8,65.5,Fair,26,Offerpad,1,2
+Lancaster,CA,1362,6.6,310330,June,Fair,60,Weak,45,,0,3
+Lakewood,CO,1526,3.00,434419,October,109.2,45.375,Fair,17,,0,2
+Littleton,CO,1659,2.30,470569,February,73,56.92,Fair,17,,0,3
+Kearney,NE,836,4.40,222439,May,High,82,Fair,8,,0,3
+Lincoln,NE,968,3.2,197791,October,High,53,Weak,11,,0,3
+Little Rock,AR,784,1.2,152585,June,High,42,Weak,37,,0,3
+Las Vegas,NV,1037,6.00,274100,November,120,56.333,Fair,43,"Zillow Offers, Opendoor, Offerpad",3,2
+Lexington,KY,918,4.10,196946,June,High,64.71,Fair,13,,0,3
+Lubbock,TX,968,3.00,148565,October,High,74.46,Fair,33,,0,3
+Laredo,TX,915,-2.60,155930,June,Moderate,104,Weak,33,,0,3
+Macon,GA,853,6.00,92860,July,High,78.13,Fair,35,,0,3
+Loveland,CO,1432,2.00,369336,February,95,57.50,High,38,,0,2
+Louisville,KY,938,4.70,161900,May,209.3,63.458,Weak,13,"Zillow Offers, Opendoor",2,2
+Indianapolis,IN,856,10.50,143800,May,208.2,66,Strong,22,"Zillow Offers, Opendoor",2,2
+Kansas City,MO,944,5.90,147900,July,203.5,61.417,Fair,30,,0,2
+Los Altos,CA,3051,-5.00,3019948,March,146,59.00,Fair,38,,0,3
+Madison,WI,1262,2.30,256900,August,166.7,64.42,Fair,11,,0,2
+Los Gatos,CA,3074,-6.10,1824128,April,146,59.00,Fair,38,,0,2
+Jackson,MS,796,-3.0,42402,June,High,21,Weak,41,,0,3
+Lake Forest,CA,2119,0.90,724300,October,133,56.625,Fair,38,,0,2
+Long Beach,CA,2113,2.50,606200,June,63.4,55.83,Weak,38,,0,3
+Longmont,CO,1480,1.20,409384,August,98,54.71,Fair,38,,0,3
+McKinney,TX,1291,0.0,330593,May,Fair,52,Strong,52,,0,3
+McAllen,TX,782,5.4,145568,April,High,112,Fair,33,,0,3
+Marietta,GA,1235,4.0,308513,June,High,53,Fair,47,Offerpad,1,3
+Melbourne,FL,1135,3.80,192500,June,146.7,71.33,Fair,26,Offerpad,1,2
+Miramar,FL,1882,3.0,335401,August,Fair,94,Fair,53,,0,3
+Morgan Hill,CA,2468,-2.20,931352,July,131,49.83,Fair,38,,0,1
+Mesa,AZ,1094,7.60,272546,August,High,52.42,Strong,49,,0,3
+Midland,TX,1533,4.80,267785,October,68,63.917,Strong,33,,0,3
+Newton,NC,782,9.00,150540,February,17,66,Fair,31,,0,3
+Mesquite,TX,986,3.1,190437,May,Fair,26,Strong,52,,0,3
+Montgomery,AL,897,1.8,91810,August,High,64,Weak,41,,0,3
+Nashville,TN,1342,3.10,263000,May,151.6,62.083,Strong,34,"Zillow Offers, Opendoor",2,1
+Naples,FL,1515,0.30,322500,February,90.5,122.29,Fair,26,,0,2
+Ocala,FL,1067,9.60,148500,September,168.2,87.25,Fair,26,Offerpad,1,2
+Mobile,AL,813,5.7,128357,January,High,43,Weak,44,,0,3
+New Orleans,LA,1191,2.60,234985,June,Low,98.96,Weak,50,,0,2
+Minneapolis,MN,1475,3.50,267100,April,184.1,65.625,Fair,6,"Zillow Offers, Opendoor",2,3
+Memphis,TN,813,4.1,85800,June,184.1,69,Weak,34,"Zillow Offers, Opendoor",2,2
+Moreno Valley,CA,1544,4.20,351769,August,Moderate,63.42,Fair,38,,0,3
+Milwaukee,WI,1199,7.80,130714,June,Low,79.8,Weak,11,,0,3
+Milpitas,CA,2815,-5.70,1046460,August,127,43.54,Fair,38,,0,3
+Newark,NJ,1217,7.60,285028,December,Low,166.75,Weak,2,,0,3
+Ontario,CA,1795,4.0,454353,August,Fair,57,Fair,40,,0,3
+Northglenn,CO,1440,0.70,347959,June,104,56.92,Fair,17,,0,3
+Oakland,CA,2674,-0.70,734700,May,64.1,43.75,Strong,38,Offerpad,1,1
+Newport Beach,CA,2794,0.80,2019744,September,38,101.38,Weak,38,,0,2
+Odessa,TX,1375,10.30,178400,October,164.1,69.71,Fair,33,Offerpad,1,1
+Omaha,NE,928,5.80,193062,May,High,58.34,Fair,8,,0,3
+Monterey,CA,2234,-0.80,802837,February,Low,70,Fair,38,,0,3
+Ormond Beach,FL,1234,4.60,258274,December,123,92.42,Fair,26,,0,3
+Palmdale,CA,1338,6.2,340320,June,High,25,Weak,46,,0,3
+Oklahoma,OK,758,4.00,131000,July,227.2,71.33,Strong,40,"Zillow Offers, Opendoor",2,2
+Palo Alto,CA,3285,-5.50,2775164,April,146,38.46,Fair,38,,0,1
+Pasadena,TX,887,5.6,163049,July,Low,14,Fair,52,Offerpad,1,3
+Orlando,FL,1327,4.60,241500,December,124.1,73,Strong,26,"Zillow Offers, Opendoor, Offerpad",3,2
+Reno,NV,1277,3.00,371900,August,101.6,58.79,Strong,43,,0,3
+Raleigh,NC,1165,6.20,277400,June,162.4,51.75,Strong,31,"Zillow Offers, Opendoor, Offerpad",3,2
+Rancho Santa Margarita,CA,2024,1.00,655827,June,87,57.75,Weak,38,,0,2
+Oxnard,CA,1972,3.40,517353,June,Low,67.13,Weak,38,,0,3
+Parker,CO,1600,1.70,511370,June,137,57,Fair,17,,0,3
+Pompano Beach,FL,1535,2.9,235574,July,Fair,82,Fair,54,,0,3
+Rochester,NY,1058,4.30,157364,August,High,69.54,Weak,24,,0,3
+Pueblo,CO,1277,8.50,190179,May,68,61.333,Fair,17,,0,2
+Pembroke Pines,FL,1733,2.8,326015,July,High,83,Fair,54,,0,3
+Providence,RI,1873,8.5,247135,August,High,61,Weak,52,,0,3
+Scottsdale,AZ,1479,3.60,478300,November,141.2,77.208,Strong,41,Offerpad,1,3
+Port Orange,FL,1239,5.30,239372,October,129,76.71,Fair,26,,0,3
+Palm Bay,FL,1023,3.70,190099,December,151,70.92,Fair,26,,0,2
+San Diego,CA,2137,1.80,634100,June,71.6,58.833,Fair,38,"Zillow Offers, Offerpad",2,2
+Philadelphia,PA,1628,4.40,159400,June,206.4,85.21,Weak,27,,0,1
+San Jose,CA,2762,-9.70,991000,June,51.1,42.42,Fair,38,,0,2
+San Antonio,TX,1039,5.70,177400,August,154.9,65.333,Fair,33,"Zillow Offers, Opendoor, Offerpad",3,2
+San Clemente,CA,2177,2.10,975530,May,62,72.58,Fair,38,,0,3
+St Cloud,FL,1396,4.80,253959,December,155,79,Strong,26,,0,3
+Overland Park,KS,1099,1.5,321556,June,Fair,47,Fair,52,,0,3
+Sacramento,CA,1368,3.10,326400,November,116.2,53.25,Weak,38,"Zillow Offers, Opendoor, Offerpad",3,3
+Salem,OR,1036,2.9,295188,October,High,65,Fair,43,,0,3
+Riverside,CA,1548,3.40,409800,July,102.4,64.375,Fair,38,"Zillow Offers, Opendoor, Offerpad",3,2
+Plano,TX,1355,-0.6,345430,June,High,46,Strong,51,,0,3
+Santa Barbara,CA,2116,-1.00,1149000,March,63.4,70.444,Weak,38,Offerpad,1,2
+Portland,OR,1457,-1.90,417600,June,114,61.958,Fair,44,"Zillow Offers, Opendoor",2,3
+Savannah,GA,1014,5.20,134000,June,148.3,80.67,Strong,35,,0,2
+Richmond,VA,1078,4.20,217500,July,169.2,63.25,Fair,4,"Zillow Offers, Opendoor, Offerpad",3,1
+Pensacola,FL,1014,10,148900,November,159,76.92,Fair,26,,0,2
+Salt Lake City,UT,1166,7.50,393900,March,129.3,47.583,Strong,23,"Opendoor, Offerpad",2,2
+Mount Dora,FL,1047,3.50,245679,December,109,85.92,Strong,26,,0,2
+Round Rock,TX,1159,3.60,277700,June,152.6,61.292,Strong,33,Offerpad,1,2
+Port St Lucie,FL,1466,5.60,226200,March,137.7,86.75,Fair,26,Offerpad,1,2
+Port Saint Lucie,FL,1466,5.60,226200,March,137.7,86.75,Fair,26,Offerpad,1,2
+Springfield,MA,890,7.7,173725,July,High,38,Fair,25,,0,3
+Roseville,CA,1755,3.80,480347,June,116.2,50.833,Fair,38,,0,3
+Spartanburg,SC,935,7.2,135936,July,High,70,Fair,39,,0,3
+St. Cloud,FL,1396,4.80,253959,December,155,79,Strong,26,,0,3
+Pittsburgh,PA,1237,5.10,164317,December,High,78.58,Weak,27,,0,3
+Saratoga,CA,3074,-5.20,2601536,February,146,59.00,Fair,38,,0,3
+Santa Clara,CA,2970,-13.50,1233600,August,51.1,40.83,Fair,38,,0,2
+Port St. Lucie,FL,1466,5.60,226200,March,137.7,86.75,Fair,26,Offerpad,1,2
+Santa Ana,CA,1920,2.60,549200,August,60.7,62.917,Weak,38,Offerpad,1,2
+Salinas,CA,1709,3.00,512572,April,Low,63.17,Fair,31,,0,3
+San Francisco,CA,3703,0.10,1355200,May,64.1,41.21,Fair,38,,0,2
+Sarasota,FL,1427,1.70,261200,December,129.4,95.96,Fair,26,Offerpad,1,2
+Seattle,WA,2122,-3.50,714800,June,103,43.54,Fair,29,,0,2
+St Paul,MN,1241,2.50,221300,July,184.1,65.958,Fair,6,"Zillow Offers, Opendoor",2,2
+Stockton,CA,1202,3.40,306500,September,109,63.167,Fair,38,,0,2
+Virginia Beach,VA,1215,3.8,288499,July,High,127,Weak,7,,0,3
+Waco,TX,975,7.90,126300,July,67,63.25,Fair,33,,0,2
+St. Petersburg,FL,1327,5.80,228900,September,144.3,72.50,Fair,26,,0,3
+St. Paul,MN,1241,2.50,221300,July,184.1,65.958,Fair,6,"Zillow Offers, Opendoor",2,2
+Tucson,AZ,819,4.90,189200,October,150.2,62.75,Fair,49,"Opendoor, Offerpad, Zillow Offers",3,2
+Tallahassee,FL,1231,4.60,182800,June,168.8,76.708,Fair,26,,0,2
+Vista,CA,1809,1.90,549225,June,137,59.042,Fair,38,,0,2
+Winter Haven,FL,1037,5.10,168300,November,146.8,91,Fair,26,Offerpad,1,2
+Saint Paul,MN,1241,2.50,221300,July,184.1,65.958,Fair,6,"Zillow Offers, Opendoor",2,2
+Sunnyvale,CA,3004,-4.10,1633237,June,61,38.42,Fair,17,,0,3
+Sugar Land,TX,1355,-0.1,315656,July,High,60,Fair,52,Offerpad,1,3
+Saint Petersburg,FL,1327,5.80,228900,September,144.3,72.50,Fair,26,,0,3
+Winter Park,FL,1287,-1.50,403400,December,124.1,82.875,Strong,26,Offerpad,1,2
+Saint Cloud,FL,1396,4.80,253959,December,155,79,Strong,26,,0,3
+St Louis,MO,1241,2.50,221300,July,184.1,65.958,Fair,6,Opendoor,1,3
+Wichita,KS,647,4.50,135819,November,High,71.3,Weak,20,,0,3
+Tempe,AZ,1419,8.5,319975,November,Fair,45,Strong,37,Offerpad,1,3
+Temple,TX,823,5.3,155481,August,Low,57,Fair,52,,0,3
+Westminster,CO,1561,1.80,390349,June,90,46.25,Fair,17,,0,3
+Vero Beach,FL,740,0.30,223080,January,67,92.13,Fair,26,Offerpad,1,3
+Titusville,FL,877,5.00,181232,December,146,69.29,Fair,26,,0,2
+Tulsa,OK,712,3.40,127839,June,High,82.38,Fair,40,,0,3
+Thornton,CO,1466,1.30,381226,June,84,49.208,Fair,17,,0,3
+Saint Louis,MO,1241,2.50,221300,July,184.1,65.958,Fair,6,Opendoor,1,3
+St Petersburg,FL,1327,5.80,228900,September,144.3,72.50,Fair,26,,0,3
+Yonkers,NY,2072,3.2,538412,July,High,147,Weak,57,,0,3
+St. Louis,MO,1241,2.50,221300,July,184.1,65.958,Fair,6,Opendoor,1,3
+Telluride,CO,1409,4.30,1000768,October,154,72.667,Fair,17,,0,1
+Winston-Salem,NC,892,7.80,149505,May,High,70.92,Strong,31,,0,3
+Vancouver,WA,1337,6.0,366840,July,High,45,Fair,54,,0,3
+Worcester,MA,1390,9.0,267281,August,High,56,Strong,72,,0,3
+Washington,DC,2131,-0.40,563200,May,144.2,63.333,Fair,45,"Zillow Offers, Opendoor",2,2
