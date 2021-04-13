@@ -1,0 +1,37 @@
+The data used in the analysis was gathered from various sources through official sources and using web scraping techniques. The Subsection~\ref{subsec_structure} discusses the general structure of our final dataset. Section~\ref{subsection_composition} breaks down the data sources and important features, as well as any significant flaw or limitation they might have. Finally, Subsection~\ref{subsection_summary_statistics} outlines key statistics of our selected data. 
+
+\subsection{Structure}\label{subsection_structure}
+The full dataset has a panel format, and contains 121 characteristics related to the economics, demographics and real estate market of 798 different US counties for the years of 2016 and 2019. Of these counties, 112 are identified as treatment (having one or more active iBuyer in 2019). Of the aforementioned 149 characteristics, 23 are selected as our regressors; a detailed discussion of this selection is provided in Section~\ref{empirical_framework}.
+
+The years present in the dataset are constrained to 2013 and 2016 due to limitations in our data and unnecessary variation in the year 2020. The Number of iBuyers dataset is composed of data scraped from the web in February 2021. Due to the lack of historical data available in our source, we are forced to limit our analysis to include only pre and post treatment data. 
+
+The year 2019 was selected as our post-treatment sample date to avoid any noise from the COVID-19 pandemic; several economic characteristics included in our analysis where significantly impacted by the pandemic, which could introduce unnecessary unobserved variation in our model .This is further discussed in ~\ref{susubsec_n_ibuyers} and in Section ~\ref{empirical_framework}. The year 2016 was selected as 
+
+The year 2016 was selected as our pre-treatment date to conform to limitations in housing market data mentioned in ~\ref{subsubsec_housing}. Note that the optimal pre-treatment date would be 2013, which is one year before \textit{Opendoor}, the first modern iBuyer, was founded. The three years in between that and our data did not see much nationwide growth in the industry, with only one other major iBuyer, \textit{Offerpad}, being founded in 2015. The year 2016 is still well-set as the pre-treatment year of the data, as it is one year before two large players, \textit{RedfinNow} and \textit{Orchard}, where founded and two years before the online real estate \textit{Zillow} began operating in the iBuying market.
+
+\subsection{Composition}\label{subsection_composition}
+The full dataset is the result of merging seven datasets. This section briefly outlines the origin of said datasets, the variables selected from each of them and their key limitations. For a discussion on the data processing and methods used to collect and merge each dataset, refer to Subsection~\ref{subsection_data_processing_and_methods} in the Appendix.
+
+\subsubsection{Number of iBuyers}\label{subsubsec_n_ibuyers}
+The Number of iBuyers dataset (referred to as \lstinline{n_ibuyers} in the accompanying code) is composed of data scraped from the website \textit{ibuyer.com}\cite{ibuyer} in February 15, 2021. The code for this collection accompanies this paper. The complete dataset contains the number of local and top iBuyers in a given county upon collection (which we label 2019 for consistency with remaining data). 
+
+The information gathered from the website is limited to the number of "local" or "top" iBuyers in each US City surveyed by the website. Top iBuyers are a group of iBuyer companies with significant investments towards iBuying who are active throughout the United States. This list is composed of \textit{Opendoor}, \textit{RedfinNow}, \textit{Orchard}, \textit{Offerpad} and \textit{Zillow Offers}, which where selected by the website in accordance to these standards. Of these, we do not include cities in which \textit{Opendoor} or \textit{Offerpad} where active, as these two companies where founded before 2016. Smaller iBuyers must register with the website to be included as a ``Local iBuyer'', which in turn constrains our treatment group to counties with at least one IBuyer registered in the website. 
+
+We follow with the assumption that events in 2020 did not significantly affect the number of counties with active iBuyers compared to 2019. This is a fair assumption, as by 2020 the iBuying market was already active in most major counties, and with the COVID-19 pandemic, there is no reason to believe iBuyers significantly expanded their market share. We consider this issue further in Section ~\ref{empirical_framework}, where we compare the effects of including the number of active iBuyers, in our model, compared to a dummy variable stating iBuyers where present in a county.
+
+One additional consideration is that the data available on the website is in the city level, while our analysis is on the county level. This further increases the need to treat the presence of iBuyers as a dummy variable rather than an ordinal discrete data point. This need stems from how any omitted city would not translate into an omitted county, but rather bias the number of iBuyers in a county downwards.
+
+\subsubsection{GDP}
+This dataset is composed of various characteristics of production in a given revion
+
+\subsubsection{Housing}\label{subsubsec_housing}
+
+\subsubsection{Education}
+
+\subsubsection{Wages}
+
+\subsubsection{Housing Characteristics}
+
+\subsubsection{Others} 
+
+\subsection{Summary Statistics}\label{subsection_summary_statistics}

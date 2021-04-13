@@ -1,0 +1,104 @@
+\documentclass{article}
+
+\usepackage[margin=.7in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{setspace, titling, fancyhdr}
+\usepackage{graphicx, subcaption}
+\usepackage{listings}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\theauthor\hspace{.2em}}
+\rhead{ECO475 - Winter 2021}
+
+\renewcommand{\thesubsubsection}{\Roman{subsubsection}}
+
+\title{Instant Happiness or Regret? \\
+\Large The Impact of iBuyers in Real Estate Market Liquidity \\
+}
+
+\author{
+    Larasati Wulandari (1004751262) \\
+    Renato Mateus Magela Zimmermann (1004767978)    \\
+    University of Toronto Department of Economics
+}
+
+%\begin{figure*}
+    %\centering
+    %\begin{subfigure}[b]{0.45\linewidth}
+        %\includegraphics[width=\linewidth]{media/}
+        %\caption{}
+    %\end{subfigure}
+    %\begin{subfigure}[b]{0.45\linewidth}
+        %\includegraphics[width=\linewidth]{media/}
+        %\caption{}
+    %\end{subfigure}
+    %\begin{subfigure}[b]{0.45\linewidth}
+        %\includegraphics[width=\linewidth]{media/}
+        %\caption{}
+    %\end{subfigure}
+    %\begin{subfigure}[b]{0.45\linewidth}
+        %\includegraphics[width=\linewidth]{media/}
+        %\caption{}
+    %\end{subfigure}
+    %\caption{}
+%\end{figure*}
+
+\begin{document}
+
+\doublespacing
+
+\begin{minipage}[h]{\textwidth}
+
+    \maketitle
+
+    \input{abstract.tex}
+
+\end{minipage}
+
+\twocolumn
+
+\section{Introduction and Motivation}
+
+\input{introduction.tex}
+
+\section{Literature Review}
+
+\input{literature_review.tex}
+
+\section{Institutional Background}
+
+\input{institutional_background.tex}
+
+\section{Data}
+
+\input{data.tex}
+
+\section{Empirical Framework}\label{empirical_framework}
+
+\input{empirical_framework.tex}
+
+\section{Results}
+
+\input{results.tex}
+
+\section{Interpretation}
+
+\input{interpretation.tex}
+
+\section{Conclusion}
+
+\input{conclusion.tex}
+
+\medskip
+\bibliographystyle{unsrt}
+\bibliography{sources}
+
+\pagebreak
+\onecolumn
+
+\section{Appendix}
+
+\input{appendix.tex}
+
+\end{document}
