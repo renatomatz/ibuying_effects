@@ -5,9 +5,9 @@ The full dataset has a panel format, and contains 121 characteristics related to
 
 The years present in the dataset are constrained to 2013 and 2016 due to limitations in our data and unnecessary variation in the year 2020. The Number of iBuyers dataset is composed of data scraped from the web in February 2021. Due to the lack of historical data available in our source, we are forced to limit our analysis to include only pre and post treatment data. 
 
-The year 2019 was selected as our post-treatment sample date to avoid any noise from the COVID-19 pandemic; several economic characteristics included in our analysis where significantly impacted by the pandemic, which could introduce unnecessary unobserved variation in our model .This is further discussed in ~\ref{susubsec_n_ibuyers} and in Section ~\ref{empirical_framework}. The year 2016 was selected as 
+The year 2019 was selected as our post-treatment sample date to avoid any noise from the COVID-19 pandemic; several economic characteristics included in our analysis where significantly impacted by the pandemic, which could introduce unnecessary unobserved variation in our model .This is further discussed in~\ref{susubsec_n_ibuyers} and in Section~\ref{empirical_framework}. The year 2016 was selected as 
 
-The year 2016 was selected as our pre-treatment date to conform to limitations in housing market data mentioned in ~\ref{subsubsec_housing}. Note that the optimal pre-treatment date would be 2013, which is one year before \textit{Opendoor}, the first modern iBuyer, was founded. The three years in between that and our data did not see much nationwide growth in the industry, with only one other major iBuyer, \textit{Offerpad}, being founded in 2015. The year 2016 is still well-set as the pre-treatment year of the data, as it is one year before two large players, \textit{RedfinNow} and \textit{Orchard}, where founded and two years before the online real estate \textit{Zillow} began operating in the iBuying market.
+The year 2016 was selected as our pre-treatment date to conform to limitations in housing market data mentioned in~\ref{subsubsec_housing}. Note that the optimal pre-treatment date would be 2013, which is one year before \textit{Opendoor}, the first modern iBuyer, was founded. The three years in between that and our data did not see much nationwide growth in the industry, with only one other major iBuyer, \textit{Offerpad}, being founded in 2015. The year 2016 is still well-set as the pre-treatment year of the data, as it is one year before two large players, \textit{RedfinNow} and \textit{Orchard}, where founded and two years before the online real estate \textit{Zillow} began operating in the iBuying market.
 
 \subsection{Composition}\label{subsection_composition}
 The full dataset is the result of merging seven datasets. This section briefly outlines the origin of said datasets, the variables selected from each of them and their key limitations. For a discussion on the data processing and methods used to collect and merge each dataset, refer to Subsection~\ref{subsection_data_processing_and_methods} in the Appendix.
@@ -17,21 +17,59 @@ The Number of iBuyers dataset (referred to as \lstinline{n_ibuyers} in the accom
 
 The information gathered from the website is limited to the number of "local" or "top" iBuyers in each US City surveyed by the website. Top iBuyers are a group of iBuyer companies with significant investments towards iBuying who are active throughout the United States. This list is composed of \textit{Opendoor}, \textit{RedfinNow}, \textit{Orchard}, \textit{Offerpad} and \textit{Zillow Offers}, which where selected by the website in accordance to these standards. Of these, we do not include cities in which \textit{Opendoor} or \textit{Offerpad} where active, as these two companies where founded before 2016. Smaller iBuyers must register with the website to be included as a ``Local iBuyer'', which in turn constrains our treatment group to counties with at least one IBuyer registered in the website. 
 
-We follow with the assumption that events in 2020 did not significantly affect the number of counties with active iBuyers compared to 2019. This is a fair assumption, as by 2020 the iBuying market was already active in most major counties, and with the COVID-19 pandemic, there is no reason to believe iBuyers significantly expanded their market share. We consider this issue further in Section ~\ref{empirical_framework}, where we compare the effects of including the number of active iBuyers, in our model, compared to a dummy variable stating iBuyers where present in a county.
+We follow with the assumption that events in 2020 did not significantly affect the number of counties with active iBuyers compared to 2019. This is a fair assumption, as by 2020 the iBuying market was already active in most major counties, and with the COVID-19 pandemic, there is no reason to believe iBuyers significantly expanded their market share. We consider this issue further in Section~\ref{empirical_framework}, where we compare the effects of including the number of active iBuyers, in our model, compared to a dummy variable stating iBuyers where present in a county.
 
 One additional consideration is that the data available on the website is in the city level, while our analysis is on the county level. This further increases the need to treat the presence of iBuyers as a dummy variable rather than an ordinal discrete data point. This need stems from how any omitted city would not translate into an omitted county, but rather bias the number of iBuyers in a county downwards.
 
 \subsubsection{GDP}
-This dataset is composed of various characteristics of production in a given revion
+This dataset is composed of various characteristics of production in a given county and year. The raw data has panel format and is subset to include only the years 2016 and 2019.
+
+\subsubsection{Population Information}
+This dataset is composed of aggregate population statistics in a given county and year. The raw data has panel format and is subset to include only the years 2016 and 2019.
 
 \subsubsection{Housing}\label{subsubsec_housing}
+This dataset is composed of real estate listing information in a  given county and month. The raw data has panel format and is subset to include only the years 2016 and 2019. This dataset has data ranging as far back as 2016 and is the reason for us selecting 2016 to be our pre-treatment year. This is an especially important dataset as it contains our regressand, the median days on market variable. 
+
+The data is originally monthly, and so we aggregate numeric columns, such that the final data shows the values for the month of December. The decision of taking the last month instead of an average is based on the objective of keeping values as close to the date the number of iBuyers was scraped as possible. It is worth mentioning that no variable in this dataset was cummulative, which does not warrant for using summation.
 
 \subsubsection{Education}
+This dataset is composed of achievement scores in English and Mathematics for public schools in a given county. The raw data has cross-sectional format, so the final data is the result of merging data from 2016 and 2019. 
+
+For both Mathematics and English, we retain the percentage of students in a county who score above a "proficient" level. This percentage is often a range to account for measurement uncertainties in a given county. The data present in our final dataset is the mean of said range.
 
 \subsubsection{Wages}
+This dataset is composed of wage and employment statistics in a given county and year. The raw data has panel format and is subset to include only the years 2016 and 2019.
 
-\subsubsection{Housing Characteristics}
+\subsubsection{Characteristics}
+This is composed of four datasets containing \textbf{Social}, \textbf{Demographic}, \textbf{Economic} and \textbf{Housing} characteristics for a given county and year. Each of these datasets has panel format and is subset to include only the years 2016 and 2019. 
+
+These four datasets contains 13 of the 23 selected characteristics.
 
 \subsubsection{Others} 
 
+Other datasets are used for the purpose of merging the datasets discussed above. A more detailed treatment of this process is described in Section~\ref{subsection_data_processing_and_methods} of the Appendix. These datasets include:
+
+\begin{itemize}
+
+    \item A table of information on all US cities used to merge counties and cities and area FIPS code.
+
+    \item A map of US Counties and their respective LEAID codes.
+
+\end{itemize}
+
 \subsection{Summary Statistics}\label{subsection_summary_statistics}
+
+\subsubsection{General Statistics}
+
+The statistics referred to here are available in Table~\ref{general_stats} in the Appendix. The first thing to notice in our selected dataset is the high range of standard deviations present in the selected variables. Regressors, such as the median listing price, median household income, population size estimate and construction spending have standard deviation values above five figures while variables such as homeowner vacancy rate and median rooms, which have standard deviations as low as 0.53. The same observation applies to the means of the data. This is a natural result of the various units of the various variables, and warrants normalizing the data. This normalization is further dicussed in Section~\ref{empirical_framework}.
+
+We further highlight the mean of our regressands. As seen in Table~\ref{general_stats}, the mean median listing price amongst counties is $274354.04$. This is to be expected in the US housing market, and follows what is expected to be seen in home sales. The high mean is accompanied by a significant variance of $162236.86$ which illustrates the fairly broad range of listing prices in the market. Still, as we can see in Figure~\ref{lst_prc_hist} this data is highly skewed to the right, following the shape of an exponential distribution.
+
+The mean median days on market in turn has a fairly different statistical appearance compared to the median listing price. The mean median days on market is $78.55$ (about two months and a half), and has standard deviation of $23.45$. This is to be expected from an average marken in the United States. As seen in Figure~\ref{days_on_mkt_hist}, the data follows a relatively normal distribution, though it also presents a slight rightward skew.
+
+
+\subsubsection{Treatment/Control Comparative Statistics}
+
+The statistics referred to here are aviailable in Table~\ref{treat_cont_comp}. This table compares the mean of each selected variable for control, treatment and both values. Both of the regressands, median listing price and median days on market, are fairly different. The treatment group has an average median listing price $81539.85$ dollars ($31\%$) higher than the control group. The treatment group also has an average median days on market $11.59$ days below ($-14.5\%$) that of the control group. These two characteristics are apparent from Figures~\ref{lst_prc_hist_comp} and~\ref{days_on_mkt_hist_comp} in the Appendix. 
+
+Other values that significantly differ when comparing the control and treatment groups are the population estimate ($267214.26$ vs $897316.43$), rate of natural income ($2.26$ vs. $4.22$), average household size ($14475.26$ vs. $48343.23$) and construction spending ($510128.97$ vs. $1937689.42$), where comarissons are for control group versus treatment group averages. These differences are consistent with a more urban profile for the treatment group compared to the control group. This makes economic sense, as larger, more urban markets are more likely to yield higher returns to real estate investors such as iBuyers. It also corresponds to areas with higher digital literacy and available data.
