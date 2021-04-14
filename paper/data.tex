@@ -1,4 +1,4 @@
-The data used in the analysis was gathered from various sources through official sources and using web scraping techniques. The Subsection~\ref{subsec_structure} discusses the general structure of our final dataset. Section~\ref{subsection_composition} breaks down the data sources and important features, as well as any significant flaw or limitation they might have. Finally, Subsection~\ref{subsection_summary_statistics} outlines key statistics of our selected data. 
+The data used in the analysis was gathered from various sources through official sources and using web scraping techniques. The Subsection~\ref{subsection_structure} discusses the general structure of our final dataset. Section~\ref{subsection_composition} breaks down the data sources and important features, as well as any significant flaw or limitation they might have. Finally, Subsection~\ref{subsection_summary_statistics} outlines key statistics of our selected data. 
 
 \subsection{Structure}\label{subsection_structure}
 The full dataset has a panel format, and contains 121 characteristics related to the economics, demographics and real estate market of 798 different US counties for the years of 2016 and 2019. Of these counties, 112 are identified as treatment (having one or more active iBuyer in 2019). Of the aforementioned 149 characteristics, 23 are selected as our regressors; a detailed discussion of this selection is provided in Section~\ref{empirical_framework}.
@@ -21,32 +21,33 @@ We follow with the assumption that events in 2020 did not significantly affect t
 
 One additional consideration is that the data available on the website is in the city level, while our analysis is on the county level. This further increases the need to treat the presence of iBuyers as a dummy variable rather than an ordinal discrete data point. This need stems from how any omitted city would not translate into an omitted county, but rather bias the number of iBuyers in a county downwards.
 
-\subsubsection{GDP}
-This dataset is composed of various characteristics of production in a given county and year. The raw data has panel format and is subset to include only the years 2016 and 2019.
+\subsubsection{Education} 
+This dataset of achievement scores in English and Mathematics for public schools is drawn from the US Department of Education (ED) Facts Data. The raw data has cross-sectional format, so the final data is the result of merging data from 2016 and 2019.  
 
-\subsubsection{Population Information}
-This dataset is composed of aggregate population statistics in a given county and year. The raw data has panel format and is subset to include only the years 2016 and 2019.
+Each state is obligated to report the results of the assessments, which are designed by each state based on what they deem appropriate. Because of this, content on test and achievement standards are not comparable between states. There exists fixed factors in the education of each state that has to be accounted for in the empirical framework.  
 
-\subsubsection{Housing}\label{subsubsec_housing}
-This dataset is composed of real estate listing information in a  given county and month. The raw data has panel format and is subset to include only the years 2016 and 2019. This dataset has data ranging as far back as 2016 and is the reason for us selecting 2016 to be our pre-treatment year. This is an especially important dataset as it contains our regressand, the median days on market variable. 
+Students are tested annually from third to eight grade and at least once in high school. These data are aggregated by students and various subgroups. For both Mathematics and English, we retain the percentage of students in a county who score above a "proficient" level. This percentage is often a range to account for measurement uncertainties in a given county. The data present in our final dataset is the mean of said range. 
 
-The data is originally monthly, and so we aggregate numeric columns, such that the final data shows the values for the month of December. The decision of taking the last month instead of an average is based on the objective of keeping values as close to the date the number of iBuyers was scraped as possible. It is worth mentioning that no variable in this dataset was cummulative, which does not warrant for using summation.
+The reported data from each state is reviewed by OSEP and OESE for timeliness, completeness and accuracy. States with missing or inaccurate data are required to resubmit their data files and are reviewed before publication. The coordinated review is this dataset’s main strength. 
 
-\subsubsection{Education}
-This dataset is composed of achievement scores in English and Mathematics for public schools in a given county. The raw data has cross-sectional format, so the final data is the result of merging data from 2016 and 2019. 
 
-For both Mathematics and English, we retain the percentage of students in a county who score above a "proficient" level. This percentage is often a range to account for measurement uncertainties in a given county. The data present in our final dataset is the mean of said range.
+\subsubsection{Characteristics} 
+13 of the 23 selected characteristics are drawn from the combination of four county-level datasets containing \textbf{Social}, \textbf{Demographic}, \textbf{Economic} and \textbf{Housing} characteristics. These were taken from the American Community Survey (ACS) taken by the U.S. Census Bureau annually. Each of these datasets has panel format and is subset to include only the years 2016 and 2019.  Estimates of populations, housing units and characteristics in both 2016 and 2019 use the same boundaries of areas as defined by the Census 2010 data.  
 
-\subsubsection{Wages}
-This dataset is composed of wage and employment statistics in a given county and year. The raw data has panel format and is subset to include only the years 2016 and 2019.
+It is important to note that these numbers are official county-level estimates of the population as inferred by the US Census Bureau based on the sample information of ACS. These estimates have a 90 percent margin of error, meaning that there is a 90\% chance that the true value is contained by the estimate, give or take the margin of error. However, one of the ACS’s limitation is in its sample size. The ACS continuously collects data monthly over 5 years which results in a total sample size of 12.5\% of the population. This means analysis of specific subset of the population such as the rural population becomes more limited because of a small sample size and high margin of error.  
 
-\subsubsection{Characteristics}
-This is composed of four datasets containing \textbf{Social}, \textbf{Demographic}, \textbf{Economic} and \textbf{Housing} characteristics for a given county and year. Each of these datasets has panel format and is subset to include only the years 2016 and 2019. 
+\subsubsection{Housing}\label{subsubsec_housing} 
+This county-level dataset of real estate listing information is drawn from realtor.com. The realtor.com data library is in turn drawn from aggregating and analyzing data from “hundreds” database of MLS-listed for-sale homes in the industry. Realtor.com admits that some data points from smaller geographies or markets with limited or partial listing and sales coverage would be too volatile. However, because this data is originally monthly, this paper chose to aggregate the numeric column such that the final data shows the values for the month of December. Not only does this reduce the possible issue of volatility, the decision of taking the last month instead of an average is based on the objective of keeping values as close to the date the number of iBuyers was scraped as possible. Additionally, data points are continuously improved upon as realtor.com are able to build on their data breadth and accuracy.   
 
-These four datasets contains 13 of the 23 selected characteristics.
+The raw data has panel format and is subset to include only the years 2016 and 2019. This dataset has data ranging as far back as 2016 and is the reason for us selecting 2016 to be our pre-treatment year. This is an especially important dataset as it contains our regressand, the median days on market variable. It is worth mentioning that no variable in this dataset was cumulative, which does not warrant for using summation. 
+
+\subsubsection{GDP and Wages} 
+The county-level GDP and personal income datasets are drawn from the Regional Economic Accounts program at the Bureau of Economic Analysis. In here, real GDP is in millions of chained 2012 dollars and calculations are done on “unrounded data”. These measures of GDP and personal income are released both quarterly and annually and are used by the government to compare and monitor local economies consistently. The large impact that the government has as a policy maker makes it even more essential that the reported data is as accurate as possible. This is the main advantage of this dataset and this paper uses it to account for spending on constructions and employment characteristics that may encourage or discourage individuals to reside in that specific county. The raw data has panel format and is subset to include only the years 2016 and 2019. 
+
+\subsubsection{Population Information} 
+The county-level dataset of aggregate population statistics is drawn from the Demographic Analysis done by the United States Census Bureau annually. The population estimate at a particular year is estimated by taking the last decennial census and then accounting for birth, death and net migration. This is used in federal funding allocations for community development and business planning. The raw data has panel format and is subset to include only the years 2016 and 2019. 
 
 \subsubsection{Others} 
-
 Other datasets are used for the purpose of merging the datasets discussed above. A more detailed treatment of this process is described in Section~\ref{subsection_data_processing_and_methods} of the Appendix. These datasets include:
 
 \begin{itemize}
@@ -72,4 +73,4 @@ The mean median days on market in turn has a fairly different statistical appear
 
 The statistics referred to here are aviailable in Table~\ref{treat_cont_comp}. This table compares the mean of each selected variable for control, treatment and both values. Both of the regressands, median listing price and median days on market, are fairly different. The treatment group has an average median listing price $81539.85$ dollars ($31\%$) higher than the control group. The treatment group also has an average median days on market $11.59$ days below ($-14.5\%$) that of the control group. These two characteristics are apparent from Figures~\ref{lst_prc_hist_comp} and~\ref{days_on_mkt_hist_comp} in the Appendix. 
 
-Other values that significantly differ when comparing the control and treatment groups are the population estimate ($267214.26$ vs $897316.43$), rate of natural income ($2.26$ vs. $4.22$), average household size ($14475.26$ vs. $48343.23$) and construction spending ($510128.97$ vs. $1937689.42$), where comarissons are for control group versus treatment group averages. These differences are consistent with a more urban profile for the treatment group compared to the control group. This makes economic sense, as larger, more urban markets are more likely to yield higher returns to real estate investors such as iBuyers. It also corresponds to areas with higher digital literacy and available data.
+Other values that significantly differ when comparing the control and treatment groups are the population estimate ($267214.26$ vs $897316.43$), rate of international migration ($2.26$ vs. $4.22$), average household size ($14475.26$ vs. $48343.23$) and construction spending ($510128.97$ vs. $1937689.42$), where comarissons are for control group versus treatment group averages. These differences are consistent with a more urban profile for the treatment group compared to the control group. This makes economic sense, as larger, more urban markets are more likely to yield higher returns to real estate investors such as iBuyers. It also corresponds to areas with higher digital literacy and available data.

@@ -1,0 +1,47 @@
+This section considers the empirical framework used to gauge whether the precence of iBuyers in a market affect listing prices and time on market. 
+
+\subsection{Economic Model}
+
+In addressing the simultaneity between the price and TOM of the US housing market, this paper uses a system of simultaneous equations. It takes the linear assumption as given and from the system, this paper derives the linear reduced forms, running a linear panel data regression on median listing price and TOM against three sets of covariates: 
+
+\begin{itemize}
+
+    \item  Average housing and public service characteristics at county-level  
+
+    \item  Demand and supply shifters such as socioeconomic factors of the population  
+
+    \item  Presence and number of iBuyers in the county 
+
+\end{itemize}
+
+Insert Equations here  
+
+It is important to note that the observable attributes above do not fully represent the “full complexity” of the utilities gained from residing in that county. However, Kain and Quigley (1975) \cite{KQ} and King (1976) \cite{King} have shown that consumers evaluate goods according to a “reduced set of composite attributes”. Thus, this is the best linear approximation of the model given the constraints.  
+
+Insert Equations here  
+
+In studying the dynamic causality between the presence of iBuyers and its corresponding effect towards the US housing market, this paper carries out a three-year difference-in-difference (DD) analysis. It treats the entering of iBuyers into specific counties as a “natural experiment”, an exogenous shock to the US housing market. This divides the US counties into two groups: a treatment group which contains all the counties with at least one iBuyer company, and a control group which contains all counties without iBuyers. By using the DD method, this paper rids of unobserved heterogeneity. It eliminates the fixed factors specific to each county that may impact the treatment and control group. DD enables us to compare the changes in housing price level and TOM before and after iBuyer firms enter the market.  
+
+\subsection{Assumption}
+
+The above model relies on several assumptions.
+
+\subsubsection{The US housing market is in equilibrium and responsive to changes}
+
+This model assumes that county-level changes such as quality of public service, demographics or the number of iBuyers would affect the TOM and price level without any significant time lags.  Essentially, changes in the market would affect the demand and supply of the housing market almost instantaneously. 
+
+\subsubsection{Parallel trend assumption – that both control and treatment group showed common trends in the housing market before the entering of iBuyers}
+
+To test the validity of this assumption, we plot the housing price trend over time and check whether the two groups of counties showed similar trends. Unfortunately, there exists no county-level data on TOM before 2016 and so this paper makes the assumption that housing price index can become a general proxy in representing overall housing trend in the US.  
+
+As shown in Figure~\ref{pta}, the two groups were almost identical up to 2012 but start showing diverging trends. There are two explanations: first, the initial assumption of housing price index being a proxy is inaccurate. Second, the parallel trend assumption does not hold. Although the difference in housing price index between the two groups start to widen, they are both moving in the same direction. This means that the estimate of the effect of iBuyers would be +++++. It is necessary to note that adding data from before 2012 would not be practical, as the first iBuyer was founded in 2014. Additionally, as mentioned in Section~\ref{subsubsec_housing}, the housing dataset used for our regressands does not go as far back as necessary to consider periods where this gap was smaller.
+
+Given this apparent breach of the parallel trend assumption, it would be necessary to utilice a synthetic control group to assure trends between the average treatment and control data are similar leadding up to 2016. This would involve finding weights to compose a new synthetic control group which would in turn be used in our DD regression. Due to time and technical constraints, this will not be included in this paper, though this is an open ssuggestion for future work.
+
+\subsubsection{The nature of its censored observation is insignificant in affecting the estimates}
+
+This paper recognizes that the model would be using censored data. A house that has not been successfully sold will not have a time on market although it will have a median listing. This means the median TOM is taken from a sample of sold houses. An extension beyond this paper could choose to incorporate a selection equation into the system of simultaneous equations.  
+
+\subsubsection{The intervention or the entering of the iBuyer into specific county is random}
+
+This assumption is not reasonable; there exists the issue of sample selection. This paper recognizes that iBuyer firms choose to enter the market of specific counties on the basis of their market potential. For example, iBuyer firms would want to operate in a market where they can buy the houses at a cheaper price than their selling price. They would also want to ensure that they can do so relatively quick as to maintain their business cash flows. This means iBuyer firms tend to enter market of high liquidity and have a large price discrepancy, which are often characterized by a young population.  

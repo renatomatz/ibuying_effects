@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.3)  14 APR 2021 02:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.3)  14 APR 2021 05:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -307,45 +307,46 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./abstract.tex) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./introduction.tex)
-(./literature_review.tex) (./institutional_background.tex) (./data.tex
+(./literature_review.tex
 
-LaTeX Warning: Reference `subsec_structure' on page 2 undefined on input line 1
-.
+LaTeX Warning: Citation `Sirman' on page 2 undefined on input line 1.
 
 [2
 
-]
+]) (./data.tex
 
 LaTeX Warning: Reference `susubsec_n_ibuyers' on page 3 undefined on input line
  8.
 
-
-LaTeX Warning: Citation `ibuyer' on page 3 undefined on input line 16.
-
-[3] [4])
-Overfull \hbox (15.1178pt too wide) in paragraph at lines 75--67
-\OT1/cmr/m/n/10 ($2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 26$ vs. $4\OML/cmm/m/it/10
- :\OT1/cmr/m/n/10 22$), av-er-age house-hold size ($14475\OML/cmm/m/it/10 :\OT1
-/cmr/m/n/10 26$ vs. $48343\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 23$)
+[3] [4]
+Overfull \hbox (6.40361pt too wide) in paragraph at lines 31--32
+\OT1/cmr/m/n/10 and OESE for time-li-ness, com-plete-ness and ac-cu-racy. State
+s
  []
 
-(./empirical_framework.tex) (./results.tex) (./interpretation.tex)
-(./conclusion.tex)
-No file iBuyerEffects.bbl.
-[5] [6
+[5] [6]) (./empirical_framework.tex [7]
+Overfull \hbox (1.33054pt too wide) in paragraph at lines 31--32
+\OT1/cmr/m/n/10 This model as-sumes that county-level changes such as qual-
+ []
 
-] (./appendix.tex
+) [8] (./results.tex) (./interpretation.tex) (./conclusion.tex)
+(./iBuyerEffects.bbl
+Underfull \hbox (badness 4505) in paragraph at lines 15--19
+[]\OT1/cmr/m/n/10 Jacob Belkin, Don-ald J. Hempel, and Den-nis
+ []
+
+) [9] (./appendix.tex
 Overfull \hbox (7.1792pt too wide) in paragraph at lines 44--73
 [][] 
  []
 
-<../data_and_processing/media/lst_prc_hist.png, id=32, 433.62pt x 289.08pt>
+<../data_and_processing/media/lst_prc_hist.png, id=42, 433.62pt x 289.08pt>
 File: ../data_and_processing/media/lst_prc_hist.png Graphic file (type png)
 <use ../data_and_processing/media/lst_prc_hist.png>
 Package pdftex.def Info: ../data_and_processing/media/lst_prc_hist.png  used on
  input line 149.
 (pdftex.def)             Requested size: 410.49551pt x 273.67607pt.
-<../data_and_processing/media/days_on_mkt_hist.png, id=34, 433.62pt x 289.08pt>
+<../data_and_processing/media/days_on_mkt_hist.png, id=44, 433.62pt x 289.08pt>
 
 File: ../data_and_processing/media/days_on_mkt_hist.png Graphic file (type png)
 
@@ -356,7 +357,7 @@ d on input line 156.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../data_and_processing/media/lst_prc_hist_comp.png, id=35, 433.62pt x 289.08pt
+<../data_and_processing/media/lst_prc_hist_comp.png, id=45, 433.62pt x 289.08pt
 >
 File: ../data_and_processing/media/lst_prc_hist_comp.png Graphic file (type png
 )
@@ -367,7 +368,7 @@ ed on input line 163.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../data_and_processing/media/days_on_mkt_hist_comp.png, id=36, 433.62pt x 289.
+<../data_and_processing/media/days_on_mkt_hist_comp.png, id=46, 433.62pt x 289.
 08pt>
 File: ../data_and_processing/media/days_on_mkt_hist_comp.png Graphic file (type
  png)
@@ -378,12 +379,21 @@ Package pdftex.def Info: ../data_and_processing/media/days_on_mkt_hist_comp.png
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [7
+<../data_and_processing/media/pta.png, id=47, 433.62pt x 289.08pt>
+File: ../data_and_processing/media/pta.png Graphic file (type png)
+<use ../data_and_processing/media/pta.png>
+Package pdftex.def Info: ../data_and_processing/media/pta.png  used on input li
+ne 177.
+(pdftex.def)             Requested size: 410.49551pt x 273.67607pt.
 
-] [8] [9 <../data_and_processing/media/lst_prc_hist.png>] [10 <../data_and_proc
-essing/media/days_on_mkt_hist.png> <../data_and_processing/media/lst_prc_hist_c
-omp.png>] [11 <../data_and_processing/media/days_on_mkt_hist_comp.png>]
-(./iBuyerEffects.aux)
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [10
+
+] [11] [12 <../data_and_processing/media/lst_prc_hist.png>] [13 <../data_and_pr
+ocessing/media/days_on_mkt_hist.png> <../data_and_processing/media/lst_prc_hist
+_comp.png>] [14 <../data_and_processing/media/days_on_mkt_hist_comp.png> <../da
+ta_and_processing/media/pta.png>] (./iBuyerEffects.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -392,13 +402,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6067 strings out of 479383
- 88973 string characters out of 5875831
- 405739 words of memory out of 5000000
- 23097 multiletter control sequences out of 15000+600000
+ 6079 strings out of 479383
+ 89151 string characters out of 5875831
+ 405777 words of memory out of 5000000
+ 23109 multiletter control sequences out of 15000+600000
  412581 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,74p,861b,989s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,8n,74p,986b,989s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -409,10 +419,10 @@ st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on iBuyerEffects.pdf (11 pages, 178254 bytes).
+Output written on iBuyerEffects.pdf (14 pages, 205610 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 106 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
