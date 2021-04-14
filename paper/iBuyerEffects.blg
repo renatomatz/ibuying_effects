@@ -1,48 +1,65 @@
 This is BibTeX, Version 0.99d (TeX Live 2020/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: iBuyerEffects.aux
-The style file: unsrt.bst
-Database file #1: sources.bib
-Warning--I didn't find a database entry for "Simarn"
-You've used 8 entries,
-            1791 wiz_defined-function locations,
-            505 strings with 4651 characters,
-and the built_in function-call counts, 1812 in all, are:
-= -- 166
-> -- 48
-< -- 2
-+ -- 20
-- -- 12
-* -- 124
-:= -- 270
-add.period$ -- 22
-call.type$ -- 8
-change.case$ -- 8
-chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 82
-empty$ -- 193
-format.name$ -- 12
-if$ -- 422
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: iBuyerEffects-blx.bib
+Database file #2: sources.bib
+Biblatex version: 3.15
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+You've used 15 entries,
+            6393 wiz_defined-function locations,
+            1289 strings with 10825 characters,
+and the built_in function-call counts, 63969 in all, are:
+= -- 3580
+> -- 2571
+< -- 422
++ -- 2488
+- -- 1732
+* -- 3529
+:= -- 6478
+add.period$ -- 0
+call.type$ -- 15
+change.case$ -- 185
+chr.to.int$ -- 190
+cite$ -- 28
+duplicate$ -- 6335
+empty$ -- 6044
+format.name$ -- 488
+if$ -- 12488
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 7
-newline$ -- 41
-num.names$ -- 7
-pop$ -- 19
+int.to.str$ -- 25
+missing$ -- 0
+newline$ -- 309
+num.names$ -- 427
+pop$ -- 4694
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 230
 quote$ -- 0
-skip$ -- 47
+skip$ -- 2203
 stack$ -- 0
-substring$ -- 151
-swap$ -- 22
-text.length$ -- 2
+substring$ -- 5955
+swap$ -- 1711
+text.length$ -- 308
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
+top$ -- 1
+type$ -- 498
 warning$ -- 0
-while$ -- 16
-width$ -- 9
-write$ -- 85
-(There was 1 warning)
+while$ -- 739
+width$ -- 0
+write$ -- 295

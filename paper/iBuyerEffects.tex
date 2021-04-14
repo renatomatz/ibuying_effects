@@ -5,6 +5,22 @@
 \usepackage{setspace, titling, fancyhdr}
 \usepackage{graphicx, subcaption}
 \usepackage{listings}
+\usepackage{longtable}
+\usepackage[%
+  backend=bibtex      % biber or bibtex
+%,style=authoryear    % Alphabeticalsch
+ ,style=numeric-comp  % numerical-compressed
+ ,sorting=none        % no sorting
+ ,sortcites=true      % some other example options ...
+ ,block=none
+ ,indexing=false
+ ,citereset=none
+ ,isbn=true
+ ,url=true
+ ,doi=true            % prints doi
+ ,natbib=true         % if you need natbib functions
+]{biblatex}
+\addbibresource{sources.bib}
 
 \renewcommand{\thesubsubsection}{\Roman{subsubsection}}
 
@@ -47,7 +63,6 @@
 
 \input{abstract.tex}
 
-\twocolumn
 
 \section{Introduction and Motivation}
 
@@ -82,8 +97,7 @@
 \input{conclusion.tex}
 
 \medskip
-\bibliographystyle{unsrt}
-\bibliography{sources}
+\printbibliography
 
 \pagebreak
 \onecolumn

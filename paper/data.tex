@@ -5,7 +5,7 @@ The full dataset has a panel format, and contains 121 characteristics related to
 
 The years present in the dataset are constrained to 2013 and 2016 due to limitations in our data and unnecessary variation in the year 2020. The Number of iBuyers dataset is composed of data scraped from the web in February 2021. Due to the lack of historical data available in our source, we are forced to limit our analysis to include only pre and post treatment data. 
 
-The year 2019 was selected as our post-treatment sample date to avoid any noise from the COVID-19 pandemic; several economic characteristics included in our analysis where significantly impacted by the pandemic, which could introduce unnecessary unobserved variation in our model .This is further discussed in~\ref{susubsec_n_ibuyers} and in Section~\ref{empirical_framework}. The year 2016 was selected as 
+The year 2019 was selected as our post-treatment sample date to avoid any noise from the COVID-19 pandemic; several economic characteristics included in our analysis where significantly impacted by the pandemic, which could introduce unnecessary unobserved variation in our model. This is further discussed here, in~\ref{subsubsec_n_ibuyers} and in Section~\ref{empirical_framework}.
 
 The year 2016 was selected as our pre-treatment date to conform to limitations in housing market data mentioned in~\ref{subsubsec_housing}. Note that the optimal pre-treatment date would be 2013, which is one year before \textit{Opendoor}, the first modern iBuyer, was founded. The three years in between that and our data did not see much nationwide growth in the industry, with only one other major iBuyer, \textit{Offerpad}, being founded in 2015. The year 2016 is still well-set as the pre-treatment year of the data, as it is one year before two large players, \textit{RedfinNow} and \textit{Orchard}, where founded and two years before the online real estate \textit{Zillow} began operating in the iBuying market.
 
@@ -13,7 +13,7 @@ The year 2016 was selected as our pre-treatment date to conform to limitations i
 The full dataset is the result of merging seven datasets. This section briefly outlines the origin of said datasets, the variables selected from each of them and their key limitations. For a discussion on the data processing and methods used to collect and merge each dataset, refer to Subsection~\ref{subsection_data_processing_and_methods} in the Appendix.
 
 \subsubsection{Number of iBuyers}\label{subsubsec_n_ibuyers}
-The Number of iBuyers dataset (referred to as \lstinline{n_ibuyers} in the accompanying code) is composed of data scraped from the website \textit{ibuyer.com}\cite{ibuyer} in February 15, 2021. The code for this collection accompanies this paper. The complete dataset contains the number of local and top iBuyers in a given county upon collection (which we label 2019 for consistency with remaining data). 
+The Number of iBuyers dataset (referred to as \lstinline{n_ibuyers} in the accompanying code) is composed of data scraped from the website \textit{ibuyer.com}\cite{iBuyer} in February 15, 2021. The code for this collection accompanies this paper. The complete dataset contains the number of local and top iBuyers in a given county upon collection (which we label 2019 for consistency with remaining data). 
 
 The information gathered from the website is limited to the number of "local" or "top" iBuyers in each US City surveyed by the website. Top iBuyers are a group of iBuyer companies with significant investments towards iBuying who are active throughout the United States. This list is composed of \textit{Opendoor}, \textit{RedfinNow}, \textit{Orchard}, \textit{Offerpad} and \textit{Zillow Offers}, which where selected by the website in accordance to these standards. Of these, we do not include cities in which \textit{Opendoor} or \textit{Offerpad} where active, as these two companies where founded before 2016. Smaller iBuyers must register with the website to be included as a ``Local iBuyer'', which in turn constrains our treatment group to counties with at least one IBuyer registered in the website. 
 
@@ -22,7 +22,7 @@ We follow with the assumption that events in 2020 did not significantly affect t
 One additional consideration is that the data available on the website is in the city level, while our analysis is on the county level. This further increases the need to treat the presence of iBuyers as a dummy variable rather than an ordinal discrete data point. This need stems from how any omitted city would not translate into an omitted county, but rather bias the number of iBuyers in a county downwards.
 
 \subsubsection{Education} 
-This dataset of achievement scores in English and Mathematics for public schools is drawn from the US Department of Education (ED) Facts Data. The raw data has cross-sectional format, so the final data is the result of merging data from 2016 and 2019.  
+This dataset of achievement scores in English and Mathematics for public schools is drawn from the US Department of Education (ED) Facts Data \cite{EDF}. The raw data has cross-sectional format, so the final data is the result of merging data from 2016 and 2019.  
 
 Each state is obligated to report the results of the assessments, which are designed by each state based on what they deem appropriate. Because of this, content on test and achievement standards are not comparable between states. There exists fixed factors in the education of each state that has to be accounted for in the empirical framework.  
 
@@ -32,7 +32,7 @@ The reported data from each state is reviewed by OSEP and OESE for timeliness, c
 
 
 \subsubsection{Characteristics} 
-13 of the 23 selected characteristics are drawn from the combination of four county-level datasets containing \textbf{Social}, \textbf{Demographic}, \textbf{Economic} and \textbf{Housing} characteristics. These were taken from the American Community Survey (ACS) taken by the U.S. Census Bureau annually. Each of these datasets has panel format and is subset to include only the years 2016 and 2019.  Estimates of populations, housing units and characteristics in both 2016 and 2019 use the same boundaries of areas as defined by the Census 2010 data.  
+13 of the 23 selected characteristics are drawn from the combination of four county-level datasets containing \textbf{Social}, \textbf{Demographic}, \textbf{Economic} and \textbf{Housing} characteristics. These were taken from the American Community Survey (ACS) taken by the U.S. Census Bureau annually \cite{ACS}. Each of these datasets has panel format and is subset to include only the years 2016 and 2019.  Estimates of populations, housing units and characteristics in both 2016 and 2019 use the same boundaries of areas as defined by the Census 2010 data.  
 
 It is important to note that these numbers are official county-level estimates of the population as inferred by the US Census Bureau based on the sample information of ACS. These estimates have a 90 percent margin of error, meaning that there is a 90\% chance that the true value is contained by the estimate, give or take the margin of error. However, one of the ACS’s limitation is in its sample size. The ACS continuously collects data monthly over 5 years which results in a total sample size of 12.5\% of the population. This means analysis of specific subset of the population such as the rural population becomes more limited because of a small sample size and high margin of error.  
 
@@ -42,19 +42,19 @@ This county-level dataset of real estate listing information is drawn from realt
 The raw data has panel format and is subset to include only the years 2016 and 2019. This dataset has data ranging as far back as 2016 and is the reason for us selecting 2016 to be our pre-treatment year. This is an especially important dataset as it contains our regressand, the median days on market variable. It is worth mentioning that no variable in this dataset was cumulative, which does not warrant for using summation. 
 
 \subsubsection{GDP and Wages} 
-The county-level GDP and personal income datasets are drawn from the Regional Economic Accounts program at the Bureau of Economic Analysis. In here, real GDP is in millions of chained 2012 dollars and calculations are done on “unrounded data”. These measures of GDP and personal income are released both quarterly and annually and are used by the government to compare and monitor local economies consistently. The large impact that the government has as a policy maker makes it even more essential that the reported data is as accurate as possible. This is the main advantage of this dataset and this paper uses it to account for spending on constructions and employment characteristics that may encourage or discourage individuals to reside in that specific county. The raw data has panel format and is subset to include only the years 2016 and 2019. 
+The county-level GDP and personal income datasets are drawn from the Regional Economic Accounts program at the Bureau of Economic Analysis \cite{BEA} \cite{BEA2}. In here, real GDP is in millions of chained 2012 dollars and calculations are done on “unrounded data”. These measures of GDP and personal income are released both quarterly and annually and are used by the government to compare and monitor local economies consistently. The large impact that the government has as a policy maker makes it even more essential that the reported data is as accurate as possible. This is the main advantage of this dataset and this paper uses it to account for spending on constructions and employment characteristics that may encourage or discourage individuals to reside in that specific county. The raw data has panel format and is subset to include only the years 2016 and 2019. 
 
 \subsubsection{Population Information} 
-The county-level dataset of aggregate population statistics is drawn from the Demographic Analysis done by the United States Census Bureau annually. The population estimate at a particular year is estimated by taking the last decennial census and then accounting for birth, death and net migration. This is used in federal funding allocations for community development and business planning. The raw data has panel format and is subset to include only the years 2016 and 2019. 
+The county-level dataset of aggregate population statistics is drawn from the Demographic Analysis done by the United States Census Bureau annually \cite{CDA}. The population estimate at a particular year is estimated by taking the last decennial census and then accounting for birth, death and net migration. This is used in federal funding allocations for community development and business planning. The raw data has panel format and is subset to include only the years 2016 and 2019. 
 
 \subsubsection{Others} 
 Other datasets are used for the purpose of merging the datasets discussed above. A more detailed treatment of this process is described in Section~\ref{subsection_data_processing_and_methods} of the Appendix. These datasets include:
 
 \begin{itemize}
 
-    \item A table of information on all US cities used to merge counties and cities and area FIPS code.
+    \item A table of information on all US cities used to merge counties and cities and area FIPS code. \cite{QCEW}
 
-    \item A map of US Counties and their respective LEAID codes.
+    \item A map of US Counties and their respective LEAID codes. \cite{EDF}
 
 \end{itemize}
 

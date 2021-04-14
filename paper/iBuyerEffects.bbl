@@ -1,45 +1,315 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{Yavas}
-Abdullah Yavas and Shiawee Yang.
-\newblock The strategic role of listing price in marketing real estate: Theory
-  and evidence.
-\newblock {\em Real Estate Economics}, 23(3):347--368, 1995.
+\datalist[entry]{none/global//global/global}
+  \entry{Sirman}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SC}{%
+         family={Sirmans},
+         familyi={S\bibinitperiod},
+         given={C.F},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Turnbull},
+         familyi={T\bibinitperiod},
+         given={Geoffrey},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Benjamin},
+         familyi={B\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SCTGBJ1}
+    \strng{fullhash}{SCTGBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{207\bibrangedash 217}
+    \field{title}{The Markets for Housing and Real Estate Broker Services}
+    \field{volume}{1}
+    \field{journaltitle}{Journal of Housing Economics}
+    \field{year}{1991}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\bibitem{Miller}
-Norman~G. Miller.
-\newblock Time on the market and selling price.
-\newblock {\em Real Estate Economics}, 6(2):164--174, June 1978.
+  \entry{Yavas}{article}{}
+    \name{author}{2}{}{%
+      {{hash=YA}{%
+         family={Yavas},
+         familyi={Y\bibinitperiod},
+         given={Abdullah},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Shiawee},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YAYS1}
+    \strng{fullhash}{YAYS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{347\bibrangedash 368}
+    \field{title}{The Strategic Role of Listing Price in Marketing Real Estate:
+  Theory and Evidence}
+    \field{volume}{23}
+    \field{journaltitle}{Real Estate Economics}
+    \field{year}{1995}
+  \endentry
 
-\bibitem{Belkin}
-Jacob Belkin, Donald~J. Hempel, and Dennis McLeavey.
-\newblock An empirical study of time on market using multidimensional
-  segmentation of housing markets.
-\newblock {\em Real Estate Economics}, 4(2):57--75, 1976.
+  \entry{Miller}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MNG}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Norman\bibnamedelima G.},
+         giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MNG1}
+    \strng{fullhash}{MNG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{164\bibrangedash 174}
+    \field{title}{Time on the Market and Selling Price}
+    \field{volume}{6}
+    \field{journaltitle}{Real Estate Economics}
+    \field{year}{1978}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\bibitem{Wheaton}
-William~C. Wheaton.
-\newblock Vacancy, search and prices in a housing market matching model.
-\newblock {\em Journal of Political Economy}, 98(6):1270--1292, 1990.
+  \entry{Belkin}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BJ}{%
+         family={Belkin},
+         familyi={B\bibinitperiod},
+         given={Jacob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HDJ}{%
+         family={Hempel},
+         familyi={H\bibinitperiod},
+         given={Donald\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={McLeavey},
+         familyi={M\bibinitperiod},
+         given={Dennis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {American Real Estate}%
+      {Urban Economics Association}%
+    }
+    \strng{namehash}{BJHDJMD1}
+    \strng{fullhash}{BJHDJMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{57\bibrangedash 75}
+    \field{title}{An Empirical Study of Time on Market using Multidimensional
+  Segmentation of Housing Markets}
+    \field{volume}{4}
+    \field{journaltitle}{Real Estate Economics}
+    \field{year}{1976}
+  \endentry
 
-\bibitem{Krainer}
-John Krainer and Stephen Leroy.
-\newblock Equilibrium valuation of illiquid assets.
-\newblock {\em Economic Theory}, 19(2):223--242, Feb 2002.
+  \entry{Wheaton}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WWC}{%
+         family={Wheaton},
+         familyi={W\bibinitperiod},
+         given={William\bibnamedelima C.},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Economic Association}%
+    }
+    \strng{namehash}{WWC1}
+    \strng{fullhash}{WWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{1270\bibrangedash 1292}
+    \field{title}{Vacancy, Search and Prices in a Housing Market Matching
+  Model}
+    \field{volume}{98}
+    \field{journaltitle}{Journal of Political Economy}
+    \field{year}{1990}
+  \endentry
 
-\bibitem{ibuyer}
-ibuyers market, 2021.
+  \entry{Krainer}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KJ}{%
+         family={Krainer},
+         familyi={K\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Leroy},
+         familyi={L\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJLS1}
+    \strng{fullhash}{KJLS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{223\bibrangedash 242}
+    \field{title}{Equilibrium Valuation of Illiquid Assets}
+    \field{volume}{19}
+    \field{journaltitle}{Economic Theory}
+    \field{year}{2002}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\bibitem{KQ}
-John~F. Kain and John~M. Quigley.
-\newblock Housing markets and racial discrimination: A microeconomic analysis.
-\newblock {\em National Bureau of Economic Research}, pages 1--393, January
-  1975.
+  \entry{iBuyer}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{iBuyers Market}
+    \verb{url}
+    \verb \url{https://ibuyer.com/ibuyer-markets.html}
+    \endverb
+    \field{urlday}{13}
+    \field{urlmonth}{04}
+    \field{urlyear}{2021}
+  \endentry
 
-\bibitem{King}
-A.T. King.
-\newblock The demand for housing: Integrating the roles of journey-to-work,
-  neighborhood quality, and price.
-\newblock {\em Household Production and Consumption}, pages 451--488, 1976.
+  \entry{EDF}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{EDFacts Data Files}
+    \verb{url}
+    \verb \url{https://www2.ed.gov/about/inits/ed/edfacts/data-files/index.html
+    \verb }
+    \endverb
+    \field{urlday}{13}
+    \field{urlmonth}{04}
+    \field{urlyear}{2021}
+  \endentry
 
-\end{thebibliography}
+  \entry{ACS}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{American Community Survey}
+    \verb{url}
+    \verb \url{https://www.census.gov/acs/www/data/data-tables-and-tools/data-p
+    \verb rofiles/}
+    \endverb
+    \field{urlday}{13}
+    \field{urlmonth}{04}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{BEA}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Regional Economic Accounts: Gross Domestic Product (GDP)}
+    \verb{url}
+    \verb \url{https://apps.bea.gov/regional/downloadzip.cfm}
+    \endverb
+    \field{urlday}{13}
+    \field{urlmonth}{04}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{BEA2}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Regional Economic Accounts: Personal Income (State and
+  Local)}
+    \verb{url}
+    \verb \url{https://apps.bea.gov/regional/downloadzip.cfm}
+    \endverb
+    \field{urlday}{13}
+    \field{urlmonth}{04}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{CDA}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Demographic Analysis (DA)}
+    \verb{url}
+    \verb \url{https://www.census.gov/programs-surveys/decennial-census/about/c
+    \verb overage-measurement/da.html}
+    \endverb
+    \field{urlday}{13}
+    \field{urlmonth}{04}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{KQ}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KJF}{%
+         family={Kain},
+         familyi={K\bibinitperiod},
+         given={John\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=QJM}{%
+         family={Quigley},
+         familyi={Q\bibinitperiod},
+         given={John\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJFQJM1}
+    \strng{fullhash}{KJFQJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1\bibrangedash 393}
+    \field{title}{Housing Markets and Racial Discrimination: A Microeconomic
+  Analysis}
+    \field{journaltitle}{National Bureau of Economic Research}
+    \field{year}{1975}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{King}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KA}{%
+         family={King},
+         familyi={K\bibinitperiod},
+         given={A.T.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Columbia University of Press for NBER}%
+    }
+    \strng{namehash}{KA1}
+    \strng{fullhash}{KA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{451\bibrangedash 488}
+    \field{title}{The Demand for Housing: Integrating the Roles of
+  Journey-to-Work, Neighborhood Quality, and Price}
+    \field{journaltitle}{Household Production and Consumption}
+    \field{year}{1976}
+  \endentry
+\enddatalist
+\endinput

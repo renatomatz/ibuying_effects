@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.3)  14 APR 2021 05:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.3)  14 APR 2021 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,30 +208,340 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count278
+\LTcapwidth=\dimen169
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@cols=\count279
+\LT@rows=\count280
+\c@LT@tables=\count281
+\c@LT@chunks=\count282
+\LT@p@ftn=\toks23
+)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
+
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count283
+)
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count284
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count285
+\c@listtotal=\count286
+\c@listcount=\count287
+\c@liststart=\count288
+\c@liststop=\count289
+\c@citecount=\count290
+\c@citetotal=\count291
+\c@multicitecount=\count292
+\c@multicitetotal=\count293
+\c@instcount=\count294
+\c@maxnames=\count295
+\c@minnames=\count296
+\c@maxitems=\count297
+\c@minitems=\count298
+\c@citecounter=\count299
+\c@maxcitecounter=\count300
+\c@savedcitecounter=\count301
+\c@uniquelist=\count302
+\c@uniquename=\count303
+\c@refsection=\count304
+\c@refsegment=\count305
+\c@maxextratitle=\count306
+\c@maxextratitleyear=\count307
+\c@maxextraname=\count308
+\c@maxextradate=\count309
+\c@maxextraalpha=\count310
+\c@abbrvpenalty=\count311
+\c@highnamepenalty=\count312
+\c@lownamepenalty=\count313
+\c@maxparens=\count314
+\c@parenlevel=\count315
+\blx@tempcnta=\count316
+\blx@tempcntb=\count317
+\blx@tempcntc=\count318
+\blx@maxsection=\count319
+\blx@maxsegment@0=\count320
+\blx@notetype=\count321
+\blx@parenlevel@text=\count322
+\blx@parenlevel@foot=\count323
+\blx@sectionciteorder@0=\count324
+\blx@entrysetcounter=\count325
+\blx@biblioinstance=\count326
+\labelnumberwidth=\skip68
+\labelalphawidth=\skip69
+\biblabelsep=\skip70
+\bibitemsep=\skip71
+\bibnamesep=\skip72
+\bibinitsep=\skip73
+\bibparsep=\skip74
+\bibhang=\skip75
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language86
+\c@mincomprange=\count327
+\c@maxcomprange=\count328
+\c@mincompwidth=\count329
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count330
+\c@savedafterword=\count331
+\c@annotator=\count332
+\c@savedannotator=\count333
+\c@author=\count334
+\c@savedauthor=\count335
+\c@bookauthor=\count336
+\c@savedbookauthor=\count337
+\c@commentator=\count338
+\c@savedcommentator=\count339
+\c@editor=\count340
+\c@savededitor=\count341
+\c@editora=\count342
+\c@savededitora=\count343
+\c@editorb=\count344
+\c@savededitorb=\count345
+\c@editorc=\count346
+\c@savededitorc=\count347
+\c@foreword=\count348
+\c@savedforeword=\count349
+\c@holder=\count350
+\c@savedholder=\count351
+\c@introduction=\count352
+\c@savedintroduction=\count353
+\c@namea=\count354
+\c@savednamea=\count355
+\c@nameb=\count356
+\c@savednameb=\count357
+\c@namec=\count358
+\c@savednamec=\count359
+\c@translator=\count360
+\c@savedtranslator=\count361
+\c@shortauthor=\count362
+\c@savedshortauthor=\count363
+\c@shorteditor=\count364
+\c@savedshorteditor=\count365
+\c@labelname=\count366
+\c@savedlabelname=\count367
+\c@institution=\count368
+\c@savedinstitution=\count369
+\c@lista=\count370
+\c@savedlista=\count371
+\c@listb=\count372
+\c@savedlistb=\count373
+\c@listc=\count374
+\c@savedlistc=\count375
+\c@listd=\count376
+\c@savedlistd=\count377
+\c@liste=\count378
+\c@savedliste=\count379
+\c@listf=\count380
+\c@savedlistf=\count381
+\c@location=\count382
+\c@savedlocation=\count383
+\c@organization=\count384
+\c@savedorganization=\count385
+\c@origlocation=\count386
+\c@savedoriglocation=\count387
+\c@origpublisher=\count388
+\c@savedorigpublisher=\count389
+\c@publisher=\count390
+\c@savedpublisher=\count391
+\c@language=\count392
+\c@savedlanguage=\count393
+\c@origlanguage=\count394
+\c@savedoriglanguage=\count395
+\c@pageref=\count396
+\c@savedpageref=\count397
+\shorthandwidth=\skip76
+\shortjournalwidth=\skip77
+\shortserieswidth=\skip78
+\shorttitlewidth=\skip79
+\shortauthorwidth=\skip80
+\shorteditorwidth=\skip81
+\locallabelnumberwidth=\skip82
+\locallabelalphawidth=\skip83
+\localshorthandwidth=\skip84
+\localshortjournalwidth=\skip85
+\localshortserieswidth=\skip86
+\localshorttitlewidth=\skip87
+\localshortauthorwidth=\skip88
+\localshorteditorwidth=\skip89
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+)
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-12-03 L3 programming layer (loader) 
+
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count278
-\l__pdf_internal_box=\box51
-)
-(./iBuyerEffects.aux
+\l__kernel_color_stack_int=\count398
+\l__pdf_internal_box=\box55
+))
+Package biblatex Info: expl3
+(biblatex)             2020-12-03 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+Package biblatex Info: Trying to load expl3 case changing code...
+Package biblatex Info: ... file 'blx-case-expl3.def' found.
 
-LaTeX Warning: Label `general_stats' multiply defined.
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.def
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+\c@textcitecount=\count399
+\c@textcitetotal=\count400
+\c@textcitemaxnames=\count401
+\c@biburlbigbreakpenalty=\count402
+\c@biburlbreakpenalty=\count403
+\c@biburlnumpenalty=\count404
+\c@biburlucpenalty=\count405
+\c@biburllcpenalty=\count406
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count407
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count408
+\c@bbx:relatedtotal=\count409
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2020/08/23 v3.15a biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count410
+\c@cbx@tempcntb=\count411
+\c@cbx@tempcntc=\count412
+\c@cbx@tempcntd=\count413
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+\@quotelevel=\count414
+\@quotereset=\count415
+ (./iBuyerEffects.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -269,17 +579,17 @@ LaTeX Font Info:    ... okay on input line 42.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count279
-\scratchdimen=\dimen169
-\scratchbox=\box52
-\nofMPsegments=\count280
-\nofMParguments=\count281
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count282
-\MPscratchDim=\dimen170
-\MPnumerator=\count283
-\makeMPintoPDFobject=\count284
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count416
+\scratchdimen=\dimen170
+\scratchbox=\box56
+\nofMPsegments=\count417
+\nofMParguments=\count418
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count419
+\MPscratchDim=\dimen171
+\MPnumerator=\count420
+\makeMPintoPDFobject=\count421
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -291,138 +601,215 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count285
-LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+\c@lstlisting=\count422
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'iBuyerEffects.bbl' found.
+ (./iBuyerEffects.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Sirman':
+(biblatex)                - Invalid format of field 'month'.
 
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Miller':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Krainer':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'KQ':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 58.
+Package biblatex Info: Reference segment=0 on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./abstract.tex) [1
+) (./abstract.tex)
+(./introduction.tex [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./introduction.tex)
-(./literature_review.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(./literature_review.tex) [2] (./data.tex [3] [4] [5]
 
-LaTeX Warning: Citation `Sirman' on page 2 undefined on input line 1.
+LaTeX Warning: Citation 'QCEW' on page 6 undefined on input line 55.
 
-[2
-
-]) (./data.tex
-
-LaTeX Warning: Reference `susubsec_n_ibuyers' on page 3 undefined on input line
- 8.
-
-[3] [4]
-Overfull \hbox (6.40361pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/n/10 and OESE for time-li-ness, com-plete-ness and ac-cu-racy. State
-s
+[6]) (./empirical_framework.tex [7] [8]) [9] (./results.tex)
+(./interpretation.tex) (./conclusion.tex) [10]
+Overfull \hbox (0.21854pt too wide) in paragraph at lines 101--101
+[]\OT1/cmr/m/it/10 Regional Eco-nomic Ac-counts: Per-sonal In-come (State and L
+o-cal)\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : $\OT1/cmtt/m/n/10
+ \url{https : / / apps . bea . gov / regional /
  []
 
-[5] [6]) (./empirical_framework.tex [7]
-Overfull \hbox (1.33054pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/n/10 This model as-sumes that county-level changes such as qual-
+[11] (./appendix.tex
+Overfull \hbox (80.5226pt too wide) in paragraph at lines 9--40
+ [][] 
  []
 
-) [8] (./results.tex) (./interpretation.tex) (./conclusion.tex)
-(./iBuyerEffects.bbl
-Underfull \hbox (badness 4505) in paragraph at lines 15--19
-[]\OT1/cmr/m/n/10 Jacob Belkin, Don-ald J. Hempel, and Den-nis
- []
+[12
 
-) [9] (./appendix.tex
-Overfull \hbox (7.1792pt too wide) in paragraph at lines 44--73
-[][] 
- []
-
-<../data_and_processing/media/lst_prc_hist.png, id=42, 433.62pt x 289.08pt>
+] [13] [14]
+<../data_and_processing/media/lst_prc_hist.png, id=62, 867.24pt x 578.16pt>
 File: ../data_and_processing/media/lst_prc_hist.png Graphic file (type png)
 <use ../data_and_processing/media/lst_prc_hist.png>
 Package pdftex.def Info: ../data_and_processing/media/lst_prc_hist.png  used on
- input line 149.
-(pdftex.def)             Requested size: 410.49551pt x 273.67607pt.
-<../data_and_processing/media/days_on_mkt_hist.png, id=44, 433.62pt x 289.08pt>
+ input line 156.
+(pdftex.def)             Requested size: 307.8736pt x 205.25264pt.
+<../data_and_processing/media/days_on_mkt_hist.png, id=64, 867.24pt x 578.16pt>
 
 File: ../data_and_processing/media/days_on_mkt_hist.png Graphic file (type png)
 
 <use ../data_and_processing/media/days_on_mkt_hist.png>
 Package pdftex.def Info: ../data_and_processing/media/days_on_mkt_hist.png  use
-d on input line 156.
-(pdftex.def)             Requested size: 410.49551pt x 273.67607pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../data_and_processing/media/lst_prc_hist_comp.png, id=45, 433.62pt x 289.08pt
->
+d on input line 163.
+(pdftex.def)             Requested size: 307.8736pt x 205.25264pt.
+<../data_and_processing/media/lst_prc_hist_comp.png, id=65, 1156.32pt x 578.16p
+t>
 File: ../data_and_processing/media/lst_prc_hist_comp.png Graphic file (type png
 )
 <use ../data_and_processing/media/lst_prc_hist_comp.png>
 Package pdftex.def Info: ../data_and_processing/media/lst_prc_hist_comp.png  us
-ed on input line 163.
-(pdftex.def)             Requested size: 410.49551pt x 273.67607pt.
+ed on input line 170.
+(pdftex.def)             Requested size: 410.49551pt x 205.24382pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../data_and_processing/media/days_on_mkt_hist_comp.png, id=46, 433.62pt x 289.
-08pt>
+<../data_and_processing/media/days_on_mkt_hist_comp.png, id=66, 1156.32pt x 578
+.16pt>
 File: ../data_and_processing/media/days_on_mkt_hist_comp.png Graphic file (type
  png)
 <use ../data_and_processing/media/days_on_mkt_hist_comp.png>
 Package pdftex.def Info: ../data_and_processing/media/days_on_mkt_hist_comp.png
-  used on input line 170.
-(pdftex.def)             Requested size: 410.49551pt x 273.67607pt.
+  used on input line 177.
+(pdftex.def)             Requested size: 410.49551pt x 205.24382pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../data_and_processing/media/pta.png, id=47, 433.62pt x 289.08pt>
+<../data_and_processing/media/pta.png, id=67, 867.24pt x 578.16pt>
 File: ../data_and_processing/media/pta.png Graphic file (type png)
 <use ../data_and_processing/media/pta.png>
 Package pdftex.def Info: ../data_and_processing/media/pta.png  used on input li
-ne 177.
-(pdftex.def)             Requested size: 410.49551pt x 273.67607pt.
+ne 184.
+(pdftex.def)             Requested size: 410.49551pt x 273.66725pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [10
+[15
 
-] [11] [12 <../data_and_processing/media/lst_prc_hist.png>] [13 <../data_and_pr
-ocessing/media/days_on_mkt_hist.png> <../data_and_processing/media/lst_prc_hist
-_comp.png>] [14 <../data_and_processing/media/days_on_mkt_hist_comp.png> <../da
-ta_and_processing/media/pta.png>] (./iBuyerEffects.aux)
+ <../data_and_processing/media/lst_prc_hist.png> <../data_and_processing/media/
+days_on_mkt_hist.png>] [16 <../data_and_processing/media/lst_prc_hist_comp.png>
+ <../data_and_processing/media/days_on_mkt_hist_comp.png>] [17 <../data_and_pro
+cessing/media/pta.png>]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.220     \hline
+                \hline
+? 
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.220     \hline\hline
+                      
+? 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.220     \hline\hline
+                      
+? 
+
+Overfull \hbox (11.13673pt too wide) in alignment at lines 217--250
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (11.13673pt too wide) in alignment at lines 250--280
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (11.13673pt too wide) in alignment at lines 280--309
+ [] [] [] [] [] [] [] 
+ []
+
+[18
+
+] [19]) [20] (./iBuyerEffects.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                iBuyerEffects
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'iBuyerEffects.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 6079 strings out of 479383
- 89151 string characters out of 5875831
- 405777 words of memory out of 5000000
- 23109 multiletter control sequences out of 15000+600000
- 412581 words of font info for 62 fonts, out of 8000000 for 9000
+ 14000 strings out of 479383
+ 242575 string characters out of 5875831
+ 763198 words of memory out of 5000000
+ 30926 multiletter control sequences out of 15000+600000
+ 414296 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,74p,986b,989s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,9n,74p,1855b,1221s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-</usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on iBuyerEffects.pdf (14 pages, 205610 bytes).
+mcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1000.pfb>
+Output written on iBuyerEffects.pdf (20 pages, 332075 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 158 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
