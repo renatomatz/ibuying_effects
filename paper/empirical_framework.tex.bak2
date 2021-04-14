@@ -6,56 +6,50 @@ As mentioned in Section~\ref{subsection_summary_statistics}, the disparity betwe
 \subsection{Economic Model} 
  
 In addressing the simultaneity between the price and TOM of the US housing market, this paper uses a system of simultaneous equations. It takes the linear assumption as given and from the system of equations, this paper derives the linear reduced form of each equation, running a linear panel data regression on median listing price and TOM against three sets of covariates:  
-
-\begin{itemize}
-
-    \item  Average housing and public service characteristics at county-level  
-
-    \item  Demand and supply shifters such as socioeconomic factors of the population  
-
-    \item  Presence and number of iBuyers in the county 
-
-\end{itemize}
-
-\begin{align}
-    TOM_{it} &= \beta_{0} + \beta_1 house_{it} + \beta_2 dem_{it} + \beta_3 supply_{it} \\
-              &+ \beta_4 Z_{it} + \beta_5 T_{it} + \beta_6 Z_{it} \cdot Tit + \beta_7 iBuyers 
-\end{align}
+ 
+\begin{itemize} 
+    \item Average housing and public service variables at county-level   
+ 
+    \item Demand and supply shifters such as socioeconomic factors of the population   
+ 
+    \item Presence and number of iBuyers in the county  
+\end{itemize} 
+ 
+\begin{align} 
+    TOM_{it} &= \beta_{0} + \beta_1 house_{it} + \beta_2 dem_{it} + \beta_3 supply_{it} \\ 
+             &+ \beta_4 Z_{it} + \beta_5 T_{it} + \beta_6 Z_{it} \cdot Tit + \beta_7 iBuyers  
+\end{align} 
 
 \begin{align} 
    Price_{it} &= \alpha_{0} + \alpha_1 house_{it} + \alpha_2 dem_{it} + \alpha_3 supply_{it} \\ 
               &+ \alpha_4 Z_{it} + \alpha_5 T_{it} + \alpha_6 Z_{it} \cdot Tit + \alpha_7 iBuyers  
 \end{align} 
 
-\noindent where:
-
-\begin{itemize}
-
-    \item $house_{it}$ is the set of variables that represent county-level housing and public goods characteristics at county $i$ at time $t$.
-
-    \item $dem_{it}$ is set of demand shifter variables at county $i$ at time $t$.
-
-    \item $supply_{it}$ is set of supply shifter variables at county $i$ at time $t$.
-
-    \item $Z_{it}= 1$ for treatment group and 0 for control group
-
-    \item $T_{it}= 1$ if time is 2019 and 0 if time is 2016
-
-\end{itemize}
-
+\noindent where: 
+ 
+\begin{itemize} 
+    \item $house_{it}$ is the set of variables that represent county-level housing and public goods characteristics at county $i$ at time $t$. 
+ 
+    \item $dem_{it}$ is set of demand shifter variables at county $i$ at time $t$. 
+ 
+    \item $supply_{it}$ is set of supply shifter variables at county $i$ at time $t$. 
+ 
+    \item $Z_{it}= 1$ for treatment group and 0 for control group 
+ 
+    \item $T_{it}= 1$ if time is 2019 and 0 if time is 2016 
+\end{itemize} 
+ 
 It is important to note that the observable attributes above do not fully represent the “full complexity” of the utilities gained from residing in that county. However, Kain and Quigley (1975) \cite{KQ} and King (1976) \cite{King} have shown that consumers evaluate goods according to a “reduced set of composite attributes”. Thus, this is the best linear approximation of the model given the constraints.  
 
 In studying the dynamic causality between the presence of iBuyers and its corresponding effect towards the US housing market, this paper carries out a three-year difference-in-difference (DD) analysis. It treats the entering of iBuyers into specific counties as a “natural experiment”, an exogenous shock to the US housing market. This divides the US counties into two groups: a treatment group which contains all the counties with at least one iBuyer company, and a control group which contains all counties without iBuyers. By using the DD method, this paper rids of time-invariant unobserved heterogeneity. It eliminates the fixed factors specific to each county that may impact the treatment and control group. DD allows for the comparison between changes in housing price level and TOM before and after iBuyer firms enter the market.   
   
 For a given dependent variable like $price_{it}$ or $TOM_{it}$, the population DD treatment effect is the difference in the dependent variable for treated and control units before and after the intervention. 
-
-\begin{align}
-    DID =& \{ E(Y_{it=1} | D_{it=1} = 1, Z_i = 1, X_i) - E(Y_{it=1} | D_{it=1} = 1,Z_i = 0, X_i)    \} \\
-        -& \{ E(Y_{it=0} | D_{it=0} = 1, Z_i = 1, X_i) - E(Y_{it=1} | D_{it=0} = 0,Z_i = 0, X_i)    \}
-\end{align}
-
-In studying the dynamic causality between the presence of iBuyers and its corresponding effect towards the US housing market, this paper carries out a three-year difference-in-difference (DD) analysis. It treats the entering of iBuyers into specific counties as a “natural experiment”, an exogenous shock to the US housing market. This divides the US counties into two groups: a treatment group which contains all the counties with at least one iBuyer company, and a control group which contains all counties without iBuyers. By using the DD method, this paper rids of unobserved heterogeneity. It eliminates the fixed factors specific to each county that may impact the treatment and control group. DD enables us to compare the changes in housing price level and TOM before and after iBuyer firms enter the market.  
-
+ 
+\begin{align} 
+    DID =& \{ E(Y_{it=1} | D_{it=1} = 1, Z_i = 1, X_i) - E(Y_{it=1} | D_{it=1} = 1,Z_i = 0, X_i)    \} \\ 
+         & \{ E(Y_{it=0} | D_{it=0} = 1, Z_i = 1, X_i) - E(Y_{it=1} | D_{it=0} = 0,Z_i = 0, X_i)    \} 
+\end{align} 
+ 
 \subsection{Assumption} 
  
 The above model relies on several assumptions. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.3)  14 APR 2021 12:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.3)  14 APR 2021 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -656,123 +656,145 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./abstract.tex)
-(./introduction.tex [1
+) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-(./literature_review.tex) [2] (./data.tex [3] [4] [5]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./abstract.tex) (./introd
+uction.tex [2])
+(./literature_review.tex) (./data.tex [3] [4] [5] [6]
 
-LaTeX Warning: Citation 'QCEW' on page 6 undefined on input line 55.
+LaTeX Warning: Citation 'QCEW' on page 7 undefined on input line 55.
 
-[6]) (./empirical_framework.tex [7] [8]) [9] (./results.tex)
-(./interpretation.tex) (./conclusion.tex) [10]
+[7]) (./empirical_framework.tex [8] [9] [10]) (./results.tex)
+(./interpretation.tex [11] [12]) [13] (./conclusion.tex) [14]
 Overfull \hbox (0.21854pt too wide) in paragraph at lines 101--101
 []\OT1/cmr/m/it/10 Regional Eco-nomic Ac-counts: Per-sonal In-come (State and L
 o-cal)\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : $\OT1/cmtt/m/n/10
  \url{https : / / apps . bea . gov / regional /
  []
 
-[11] (./appendix.tex
-Overfull \hbox (80.5226pt too wide) in paragraph at lines 9--40
- [][] 
- []
+[15] (./appendix.tex [16
 
-[12
-
-] [13] [14]
-<../data_and_processing/media/lst_prc_hist.png, id=62, 867.24pt x 578.16pt>
+]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.197     \end{tabular} \hline
+                              
+? 
+[17] [18] [19]
+<../data_and_processing/media/lst_prc_hist.png, id=78, 867.24pt x 578.16pt>
 File: ../data_and_processing/media/lst_prc_hist.png Graphic file (type png)
 <use ../data_and_processing/media/lst_prc_hist.png>
 Package pdftex.def Info: ../data_and_processing/media/lst_prc_hist.png  used on
- input line 156.
+ input line 206.
 (pdftex.def)             Requested size: 307.8736pt x 205.25264pt.
-<../data_and_processing/media/days_on_mkt_hist.png, id=64, 867.24pt x 578.16pt>
+<../data_and_processing/media/days_on_mkt_hist.png, id=80, 867.24pt x 578.16pt>
 
 File: ../data_and_processing/media/days_on_mkt_hist.png Graphic file (type png)
 
 <use ../data_and_processing/media/days_on_mkt_hist.png>
 Package pdftex.def Info: ../data_and_processing/media/days_on_mkt_hist.png  use
-d on input line 163.
+d on input line 213.
 (pdftex.def)             Requested size: 307.8736pt x 205.25264pt.
-<../data_and_processing/media/lst_prc_hist_comp.png, id=65, 1156.32pt x 578.16p
+<../data_and_processing/media/lst_prc_hist_comp.png, id=81, 1156.32pt x 578.16p
 t>
 File: ../data_and_processing/media/lst_prc_hist_comp.png Graphic file (type png
 )
 <use ../data_and_processing/media/lst_prc_hist_comp.png>
 Package pdftex.def Info: ../data_and_processing/media/lst_prc_hist_comp.png  us
-ed on input line 170.
+ed on input line 220.
 (pdftex.def)             Requested size: 410.49551pt x 205.24382pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../data_and_processing/media/days_on_mkt_hist_comp.png, id=66, 1156.32pt x 578
+<../data_and_processing/media/days_on_mkt_hist_comp.png, id=82, 1156.32pt x 578
 .16pt>
 File: ../data_and_processing/media/days_on_mkt_hist_comp.png Graphic file (type
  png)
 <use ../data_and_processing/media/days_on_mkt_hist_comp.png>
 Package pdftex.def Info: ../data_and_processing/media/days_on_mkt_hist_comp.png
-  used on input line 177.
+  used on input line 227.
 (pdftex.def)             Requested size: 410.49551pt x 205.24382pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../data_and_processing/media/pta.png, id=67, 867.24pt x 578.16pt>
+<../data_and_processing/media/lst_prc_hist_comp_Y.png, id=83, 1156.32pt x 578.1
+6pt>
+File: ../data_and_processing/media/lst_prc_hist_comp_Y.png Graphic file (type p
+ng)
+<use ../data_and_processing/media/lst_prc_hist_comp_Y.png>
+Package pdftex.def Info: ../data_and_processing/media/lst_prc_hist_comp_Y.png  
+used on input line 234.
+(pdftex.def)             Requested size: 410.49551pt x 205.24382pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../data_and_processing/media/days_on_mkt_hist_comp_Y.png, id=84, 1156.32pt x 5
+78.16pt>
+File: ../data_and_processing/media/days_on_mkt_hist_comp_Y.png Graphic file (ty
+pe png)
+<use ../data_and_processing/media/days_on_mkt_hist_comp_Y.png>
+Package pdftex.def Info: ../data_and_processing/media/days_on_mkt_hist_comp_Y.p
+ng  used on input line 241.
+(pdftex.def)             Requested size: 410.49551pt x 205.24382pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../data_and_processing/media/pta.png, id=85, 867.24pt x 578.16pt>
 File: ../data_and_processing/media/pta.png Graphic file (type png)
 <use ../data_and_processing/media/pta.png>
 Package pdftex.def Info: ../data_and_processing/media/pta.png  used on input li
-ne 184.
+ne 248.
 (pdftex.def)             Requested size: 410.49551pt x 273.66725pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15
+[20
 
  <../data_and_processing/media/lst_prc_hist.png> <../data_and_processing/media/
-days_on_mkt_hist.png>] [16 <../data_and_processing/media/lst_prc_hist_comp.png>
- <../data_and_processing/media/days_on_mkt_hist_comp.png>] [17 <../data_and_pro
-cessing/media/pta.png>]
+days_on_mkt_hist.png>] [21 <../data_and_processing/media/lst_prc_hist_comp.png>
+ <../data_and_processing/media/days_on_mkt_hist_comp.png>] [22 <../data_and_pro
+cessing/media/lst_prc_hist_comp_Y.png> <../data_and_processing/media/days_on_mk
+t_hist_comp_Y.png>] [23 <../data_and_processing/media/pta.png>]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.220     \hline
-                \hline
+l.284             \hline
+                        \hline
 ? 
 ! Misplaced \omit.
 \multispan ->\omit 
                    \@multispan 
-l.220     \hline\hline
-                      
+l.284             \hline\hline
+                              
 ? 
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.220     \hline\hline
-                      
+l.284             \hline\hline
+                              
 ? 
 
-Overfull \hbox (11.13673pt too wide) in alignment at lines 217--250
+Overfull \hbox (12.72005pt too wide) in alignment at lines 281--314
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (11.13673pt too wide) in alignment at lines 250--280
+Overfull \hbox (12.72005pt too wide) in alignment at lines 314--344
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (11.13673pt too wide) in alignment at lines 280--309
+Overfull \hbox (12.72005pt too wide) in alignment at lines 344--373
  [] [] [] [] [] [] [] 
  []
 
-[18
+[24
 
-] [19]) [20] (./iBuyerEffects.aux)
+] [25]) [26] (./iBuyerEffects.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -782,13 +804,13 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'iBuyerEffects.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 14000 strings out of 479383
- 242575 string characters out of 5875831
- 763198 words of memory out of 5000000
- 30926 multiletter control sequences out of 15000+600000
+ 14015 strings out of 479383
+ 243260 string characters out of 5875831
+ 770239 words of memory out of 5000000
+ 30939 multiletter control sequences out of 15000+600000
  414296 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,9n,74p,1855b,1221s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,9n,74p,1855b,1223s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -806,10 +828,10 @@ fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/cm-super/sfrm1000.pfb>
-Output written on iBuyerEffects.pdf (20 pages, 332075 bytes).
+Output written on iBuyerEffects.pdf (26 pages, 377062 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 181 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
